@@ -1,25 +1,25 @@
 [
-  {
+    {
     "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.png",
+    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.webp",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
-    "bowling_average": 68.5,
+    "bowling_average": 68.50,
     "centuries_scored": 70
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "Steve Smith": "assets/img/Player_photos/steve_smith.jpeg",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
-    "bowling_average": 55.2,
+    "bowling_average": 55.20,
     "centuries_scored": 27
   },
   {
     "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/Player_photos/kane_williamson.png",
+    "Kane Williamson": "assets/img/Player_photos/kane_williamson.jpeg",
     "batting_average": 53.38,
     "total_runs": 6476,
     "fielding_average": 0.91,
@@ -28,8 +28,8 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
-    "batting_average": 52.8,
+    "Joe Root": "assets/img/Player_photos/joy Root.jpeg",
+    "batting_average": 52.80,
     "total_runs": 8599,
     "fielding_average": 0.95,
     "bowling_average": 47.29,
@@ -37,34 +37,33 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "Babar Azam": "assets/img/Player_photos/Babar_azam.jpeg",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
     "bowling_average": 74.22,
     "centuries_scored": 16
-  },
-  {
+  }, {
     "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.png",
+    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.webp",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
-    "bowling_average": 68.5,
+    "bowling_average": 68.50,
     "centuries_scored": 70
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "Steve Smith": "assets/img/Player_photos/steve_smith.jpeg",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
-    "bowling_average": 55.2,
+    "bowling_average": 55.20,
     "centuries_scored": 27
   },
   {
     "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/Player_photos/kane_williamson.png",
+    "Kane Williamson": "assets/img/Player_photos/kane_williamson.jpeg",
     "batting_average": 53.38,
     "total_runs": 6476,
     "fielding_average": 0.91,
@@ -73,8 +72,8 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
-    "batting_average": 52.8,
+    "Joe Root": "assets/img/Player_photos/joy Root.jpeg",
+    "batting_average": 52.80,
     "total_runs": 8599,
     "fielding_average": 0.95,
     "bowling_average": 47.29,
@@ -82,7 +81,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "Babar Azam": "assets/img/Player_photos/Babar_azam.jpeg",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -91,7 +90,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "Babar Azam": "assets/img/Player_photos/Babar_azam.jpeg",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
