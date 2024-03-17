@@ -1,7 +1,7 @@
 [
   {
     "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.png",
+    "photo": "/game2/assets/img/Player_photos/Virat-kohli.png",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
@@ -10,7 +10,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "photo": "/game2/assets/img/Player_photos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -19,7 +19,7 @@
   },
   {
     "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/Player_photos/kane_williamson.png",
+    "photo": "/game2/assets/img/Player_photos/kane_williamson.png",
     "batting_average": 53.38,
     "total_runs": 6476,
     "fielding_average": 0.91,
@@ -28,7 +28,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
+    "photo": "/game2/assets/img/Player_photos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -37,7 +37,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "photo": "/game2/assets/img/Player_photos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -46,7 +46,7 @@
   },
   {
     "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/Player_photos/Virat-kohli.png",
+    "photo": "/game2/assets/img/Player_photos/Virat-kohli.png",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
@@ -55,7 +55,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "photo": "/game2/assets/img/Player_photos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -64,7 +64,7 @@
   },
   {
     "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/Player_photos/kane_williamson.png",
+    "photo": "/game2/assets/img/Player_photos/kane_williamson.png",
     "batting_average": 53.38,
     "total_runs": 6476,
     "fielding_average": 0.91,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
+    "photo": "/game2/assets/img/Player_photos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -82,7 +82,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "photo": "/game2/assets/img/Player_photos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "photo": "/game2/assets/img/Player_photos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
