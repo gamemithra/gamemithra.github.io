@@ -1,7 +1,7 @@
 [
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -10,7 +10,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -19,7 +19,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
+    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -28,7 +28,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
+    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -37,7 +37,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -46,7 +46,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/Player_photos/Babar_azam.png",
+    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -55,7 +55,7 @@
   },
   {
     "name": "David Warner",
-    "David Warner": "assets/img/Player_photos/dawid_warner.png",
+    "David Warner": "assets/img/playerPhotos/dawid_warner.png",
     "batting_average": 48.09,
     "total_runs": 7242,
     "fielding_average": 0.9,
@@ -64,7 +64,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/Player_photos/Joy-Root.png",
+    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Shakib Al Hasan",
-    "David Warner": "assets/img/Player_photos/shakib.png",
+    "David Warner": "assets/img/playerPhotos/shakib.png",
     "batting_average": 39.38,
     "total_runs": 3863,
     "fielding_average": 0.91,
@@ -82,7 +82,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/Player_photos/steve_smith.png",
+    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
