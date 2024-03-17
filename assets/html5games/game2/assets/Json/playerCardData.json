@@ -1,7 +1,7 @@
 [
   {
     "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/playerPhotos/Virat-kohli.png",
+    "image": "assets/img/playerPhotos/Virat-kohli.png",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
@@ -10,7 +10,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
+    "image": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -19,7 +19,7 @@
   },
   {
     "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/playerPhotos/kane_williamson.png",
+    "image": "assets/img/playerPhotos/kane_williamson.png",
     "batting_average": 53.38,
     "total_runs": 6476,
     "fielding_average": 0.91,
@@ -28,7 +28,7 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
+    "image": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
@@ -37,61 +37,7 @@
   },
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
-    "batting_average": 44.13,
-    "total_runs": 5151,
-    "fielding_average": 0.88,
-    "bowling_average": 74.22,
-    "centuries_scored": 16
-  },
-  {
-    "name": "Virat Kohli",
-    "Virat Kohli": "assets/img/playerPhotos/Virat-kohli.png",
-    "batting_average": 52.04,
-    "total_runs": 7240,
-    "fielding_average": 0.92,
-    "bowling_average": 68.5,
-    "centuries_scored": 70
-  },
-  {
-    "name": "Steve Smith",
-    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
-    "batting_average": 61.37,
-    "total_runs": 7540,
-    "fielding_average": 0.94,
-    "bowling_average": 55.2,
-    "centuries_scored": 27
-  },
-  {
-    "name": "Kane Williamson",
-    "Kane Williamson": "assets/img/playerPhotos/kane_williamson.png",
-    "batting_average": 53.38,
-    "total_runs": 6476,
-    "fielding_average": 0.91,
-    "bowling_average": 51.14,
-    "centuries_scored": 24
-  },
-  {
-    "name": "Joe Root",
-    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
-    "batting_average": 52.8,
-    "total_runs": 8599,
-    "fielding_average": 0.95,
-    "bowling_average": 47.29,
-    "centuries_scored": 20
-  },
-  {
-    "name": "Babar Azam",
-    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
-    "batting_average": 44.13,
-    "total_runs": 5151,
-    "fielding_average": 0.88,
-    "bowling_average": 74.22,
-    "centuries_scored": 16
-  },
-  {
-    "name": "Babar Azam",
-    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
+    "image": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,

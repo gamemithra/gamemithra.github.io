@@ -1,7 +1,7 @@
 [
   {
     "name": "Babar Azam",
-    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
+    "image": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
     "fielding_average": 0.88,
@@ -10,7 +10,7 @@
   },
   {
     "name": "Steve Smith",
-    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
+    "image": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
     "fielding_average": 0.94,
@@ -19,43 +19,16 @@
   },
   {
     "name": "Joe Root",
-    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
+    "image": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
     "fielding_average": 0.95,
     "bowling_average": 47.29,
     "centuries_scored": 20
-  },
-  {
-    "name": "Joe Root",
-    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
-    "batting_average": 52.8,
-    "total_runs": 8599,
-    "fielding_average": 0.95,
-    "bowling_average": 47.29,
-    "centuries_scored": 20
-  },
-  {
-    "name": "Steve Smith",
-    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
-    "batting_average": 61.37,
-    "total_runs": 7540,
-    "fielding_average": 0.94,
-    "bowling_average": 55.2,
-    "centuries_scored": 27
-  },
-  {
-    "name": "Babar Azam",
-    "Babar Azam": "assets/img/playerPhotos/Babar_azam.png",
-    "batting_average": 44.13,
-    "total_runs": 5151,
-    "fielding_average": 0.88,
-    "bowling_average": 74.22,
-    "centuries_scored": 16
   },
   {
     "name": "David Warner",
-    "David Warner": "assets/img/playerPhotos/dawid_warner.png",
+    "image": "assets/img/playerPhotos/dawid_warner.png",
     "batting_average": 48.09,
     "total_runs": 7242,
     "fielding_average": 0.9,
@@ -63,30 +36,12 @@
     "centuries_scored": 24
   },
   {
-    "name": "Joe Root",
-    "Joe Root": "assets/img/playerPhotos/Joy-Root.png",
-    "batting_average": 52.8,
-    "total_runs": 8599,
-    "fielding_average": 0.95,
-    "bowling_average": 47.29,
-    "centuries_scored": 20
-  },
-  {
     "name": "Shakib Al Hasan",
-    "David Warner": "assets/img/playerPhotos/shakib.png",
+    "image": "assets/img/playerPhotos/shakib.png",
     "batting_average": 39.38,
     "total_runs": 3863,
     "fielding_average": 0.91,
     "bowling_average": 29.36,
     "centuries_scored": 9
-  },
-  {
-    "name": "Steve Smith",
-    "Steve Smith": "assets/img/playerPhotos/steve_smith.png",
-    "batting_average": 61.37,
-    "total_runs": 7540,
-    "fielding_average": 0.94,
-    "bowling_average": 55.2,
-    "centuries_scored": 27
   }
 ]
