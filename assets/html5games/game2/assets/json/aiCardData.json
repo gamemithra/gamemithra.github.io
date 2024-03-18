@@ -1,6 +1,6 @@
 [
   {
-    "name": "Babar Azam",
+    "name": "Babar_azam",
     "image": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
@@ -9,7 +9,7 @@
     "centuries_scored": 16
   },
   {
-    "name": "Steve Smith",
+    "name": "steve_smith",
     "image": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
@@ -18,7 +18,7 @@
     "centuries_scored": 27
   },
   {
-    "name": "Joe Root",
+    "name": "Joy-Root",
     "image": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
@@ -27,8 +27,8 @@
     "centuries_scored": 20
   },
   {
-    "name": "David Warner",
-    "image": "assets/img/playerPhotos/dawid_warner.png",
+    "name": "Rohit_sharma",
+    "image": "assets/img/playerPhotos/Rohit_sharma.png",
     "batting_average": 48.09,
     "total_runs": 7242,
     "fielding_average": 0.9,

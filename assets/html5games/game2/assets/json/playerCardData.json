@@ -1,7 +1,7 @@
 [
   {
-    "name": "Virat Kohli",
-    "image": "assets/img/playerPhotos/Virat-kohli.png",
+    "name": "VKoli",
+    "image": "assets/img/playerPhotos/VKoli.png",
     "batting_average": 52.04,
     "total_runs": 7240,
     "fielding_average": 0.92,
@@ -9,7 +9,7 @@
     "centuries_scored": 70
   },
   {
-    "name": "Steve Smith",
+    "name": "steve_smith",
     "image": "assets/img/playerPhotos/steve_smith.png",
     "batting_average": 61.37,
     "total_runs": 7540,
@@ -18,7 +18,7 @@
     "centuries_scored": 27
   },
   {
-    "name": "Kane Williamson",
+    "name": "kane_williamson",
     "image": "assets/img/playerPhotos/kane_williamson.png",
     "batting_average": 53.38,
     "total_runs": 6476,
@@ -27,7 +27,7 @@
     "centuries_scored": 24
   },
   {
-    "name": "Joe Root",
+    "name": "Joy-Root",
     "image": "assets/img/playerPhotos/Joy-Root.png",
     "batting_average": 52.8,
     "total_runs": 8599,
@@ -36,7 +36,7 @@
     "centuries_scored": 20
   },
   {
-    "name": "Babar Azam",
+    "name": "Babar_azam",
     "image": "assets/img/playerPhotos/Babar_azam.png",
     "batting_average": 44.13,
     "total_runs": 5151,
