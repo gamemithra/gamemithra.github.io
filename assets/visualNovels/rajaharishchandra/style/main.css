@@ -19,12 +19,19 @@
 
 /* General Style */
 body {
-
+  font-family: Montserrat;
+  color: rgb(184,153,118);
+  background-image: url('../assets/scenes/harischandra_intro.png');
 }
 
 /* Simple Button styles*/
 button {
+  background: url(../img/ui/Dark-Pattern.png);
+  opacity: .8;
+  color: rgb(184,153,118);
 
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
 }
 
 /* Simple Button Style on Hover */
@@ -32,10 +39,22 @@ button:hover {
 
 }
 
-/* General Styling for Menu Screens */
-[data-screen] {
+button:after {
+    transition: all 3s;
 
 }
+
+button:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0.2s;
+    transform: translateY(4px);
+}
+/* General Styling for Menu Screens */
+[data-screen] {
+ 
+  
 
 /**
  * ===========================
@@ -43,15 +62,33 @@ button:hover {
  * ===========================
 **/
 
+/* General Styling for Menu Screens */
+[data-menu] {
+  /* background-image: url('../assets/ui/Light-Pattern.png'); */
+  
+}
+
+[data-component="modal"] {
+
+}
+
+/**
+* ===========================
+* Main Menu Styling
+* ===========================
+**/
+
 /* Main Menu Styling */
-[data-screen="main"] {
+[data-menu="main"] {
+ 
 
 }
 
 /* Main Menu Buttons Styling */
-[data-screen="main"] button {
+[data-menu="main"] button {
 
 }
+
 
 /**
  * ===========================
@@ -78,7 +115,44 @@ button:hover {
 [data-component="save-slot"] button {
 
 }
+/**
+* ===========================
+* Input Styling
+* ===========================
+**/
 
+
+[data-ui="input"] div {
+  width: auto;
+  padding: 1vmin;
+}
+
+[data-ui="input"] small {
+  margin: 0.5rem auto;
+}
+
+[data-ui="input-message"] {
+  font-size: 1rem;
+}
+
+[data-ui="input"] input,
+textarea {
+  padding: 1vmin;
+  background: #eee;
+  min-width: 50%;
+}
+
+[data-ui="input"] button {
+  width: 3.5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+[data-menu='save'] input {
+  background: #FFFFFF;
+  border: 1px solid rgb(184,153,118);
+  color: rgb(184,153,118);
+}
 /**
  * ===========================
  * Game Elements Styling
@@ -87,6 +161,8 @@ button:hover {
 
 /* Choice Buttons style */
 [data-component="choice-container"] button {
+  background-image: url('../assets/ui/TextBox.svg');
+}
 
 }
 
@@ -184,6 +260,61 @@ input[type=range]::-ms-fill-lower {
 
 input[type=range]::-ms-fill-upper {
 
+}
+/**
+* ===========================
+* Game Elements Styling
+* ===========================
+**/
+
+/* Choice Buttons style */
+[data-ui="choices"] button {
+
+  background: url(../assets/ui/Light-Pattern.png), rgb(247, 247, 247, .8);
+  background-size: 25%;
+
+  opacity: 0.90;
+  border-bottom: 3px solid rgb(184,153,118);
+  border-top: 3px solid rgb(184,153,118);
+
+  border-radius: 0;
+  width: 70%;
+
+  z-index: 12;
+  color: rgb(184,153,118);
+}
+/* Choice Button Style on Hover */
+[data-ui="choices"] button:hover {
+  border-bottom: 4px solid rgb(184,153,118);
+  border-top: 4px solid rgb(184,153,118);
+
+  font-weight: 700;
+
+  box-shadow: 0px 0px 25px white;
+}
+
+/* Text Box styling */
+
+[data-ui="text"] {
+  min-height: 22%;
+  max-height: 25%;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 10;
+  text-align: left;
+  position: absolute;
+  color: rgb(184,153,118);
+
+  background: url(../assets/ui/TextBox.svg), rgb(247, 247, 247, .8);
+  background-size: 25%;
+  opacity: 0.90;
+
+  font-weight: 500;
+  text-shadow: 1px 0px 15px #FFFFFF;
+
+  outline: 5px solid rgb(247, 247, 247, .8);
+  border-top: 2.5px solid rgb(184,153,118);
+  border-bottom: 2.5px solid rgb(184,153,118);
 }
 
 /** Medium Screens, Phablets (601px) **/
