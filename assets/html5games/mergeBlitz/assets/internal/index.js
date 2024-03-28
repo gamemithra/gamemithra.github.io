@@ -1,7 +1,7 @@
-System.register("chunks:///internal.js",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/internal",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
-  r('virtual:///prerequisite-imports/internal', 'chunks:///internal.js'); 
+  r('virtual:///prerequisite-imports/internal', 'chunks:///_virtual/internal'); 
 })(function(mid, cid) {
     System.register(mid, [cid], function (_export, _context) {
     return {
@@ -18,4 +18,3 @@ System.register("chunks:///internal.js",[],(function(){return{execute:function()
     };
     });
 });
-//# sourceMappingURL=index.js.map
