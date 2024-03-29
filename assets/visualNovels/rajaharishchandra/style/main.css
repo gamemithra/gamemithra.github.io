@@ -26,7 +26,7 @@ body {
 
 /* Simple Button styles*/
 button {
-  background: url(../img/ui/Dark-Pattern.png);
+  background: url(../assets/ui/Dark-Pattern.png);
   opacity: .8;
   color: rgb(184,153,118);
 
@@ -161,7 +161,7 @@ textarea {
 
 /* Choice Buttons style */
 [data-component="choice-container"] button {
-  background-image: url('../assets/ui/TextBox.svg');
+ 
 }
 
 }
@@ -270,7 +270,7 @@ input[type=range]::-ms-fill-upper {
 /* Choice Buttons style */
 [data-ui="choices"] button {
 
-  background: url(../assets/ui/Light-Pattern.png), rgb(247, 247, 247, .8);
+  
   background-size: 25%;
 
   opacity: 0.90;
@@ -305,7 +305,7 @@ input[type=range]::-ms-fill-upper {
   position: absolute;
   color: rgb(184,153,118);
 
-  background: url(../assets/ui/TextBox.svg), rgb(247, 247, 247, .8);
+  
   background-size: 25%;
   opacity: 0.90;
 
