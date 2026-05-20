@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ramayan Quest screenshot placeholder four</title>
+  <desc id="desc">Learning adventure placeholder.</desc>
+  <rect width="1200" height="675" fill="#7a4a1f"/>
+  <rect width="1200" height="675" fill="#d9a441" opacity="0.16"/>
+  <path d="M0 505 C220 390 400 515 610 390 C840 260 1020 310 1200 210 L1200 675 L0 675 Z" fill="#101a3a" opacity="0.82"/>
+  <circle cx="820" cy="185" r="102" fill="#fff7e7" opacity="0.28"/>
+  <text x="88" y="575" fill="#fff7e7" font-family="Georgia, serif" font-size="48">Learn through adventure.</text>
+</svg>

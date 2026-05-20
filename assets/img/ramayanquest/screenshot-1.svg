@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ramayan Quest screenshot placeholder one</title>
+  <desc id="desc">Quiz chapter placeholder.</desc>
+  <rect width="1200" height="675" fill="#101a3a"/>
+  <rect x="90" y="90" width="520" height="360" rx="14" fill="#f2dfbd" opacity="0.9"/>
+  <path d="M0 515 C220 420 390 520 570 420 C800 285 990 330 1200 210 L1200 675 L0 675 Z" fill="#214832"/>
+  <text x="90" y="565" fill="#fff7e7" font-family="Georgia, serif" font-size="46">Every answer unlocks a story.</text>
+</svg>

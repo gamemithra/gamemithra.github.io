@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ramayan Quest screenshot placeholder two</title>
+  <desc id="desc">Mythology journey placeholder.</desc>
+  <rect width="1200" height="675" fill="#0b1228"/>
+  <circle cx="950" cy="170" r="115" fill="#d9a441" opacity="0.34"/>
+  <path d="M0 470 C160 330 330 510 520 360 C700 220 870 330 1200 150 L1200 675 L0 675 Z" fill="#2f5f3d"/>
+  <path d="M530 535 L710 210 L910 535 Z" fill="#f2dfbd" opacity="0.45"/>
+  <text x="80" y="575" fill="#fff7e7" font-family="Georgia, serif" font-size="48">Journey through mythology.</text>
+</svg>

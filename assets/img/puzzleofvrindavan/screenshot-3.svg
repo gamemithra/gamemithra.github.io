@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Puzzle of Vrindavan screenshot placeholder three</title>
+  <desc id="desc">Color and culture placeholder.</desc>
+  <rect width="1200" height="675" fill="#f2dfbd"/>
+  <path d="M0 0 H1200 V675 H0 Z" fill="#101a3a" opacity="0.12"/>
+  <rect x="140" y="95" width="240" height="240" rx="26" fill="#d9a441"/>
+  <rect x="440" y="135" width="240" height="240" rx="26" fill="#215b74"/>
+  <rect x="740" y="95" width="240" height="240" rx="26" fill="#7f2d5b"/>
+  <text x="80" y="595" fill="#241a12" font-family="Georgia, serif" font-size="46">Inspired by color and culture.</text>
+</svg>

@@ -2149,7 +2149,7 @@ body.studio-home .navbar-mobile a:focus {
 .ramayan-art {
   background:
     linear-gradient(145deg, rgba(18, 56, 41, 0.3), rgba(91, 44, 24, 0.5)),
-    url("../img/carousel/game1.jpg") center / cover;
+    url("../img/ramayanquest/hero-placeholder.svg") center / cover;
 }
 
 .sindoor-art {
@@ -2161,7 +2161,7 @@ body.studio-home .navbar-mobile a:focus {
 .vrindavan-art {
   background:
     linear-gradient(145deg, rgba(30, 83, 96, 0.42), rgba(204, 139, 43, 0.34)),
-    url("../img/carousel/game3.jpg") center / cover;
+    url("../img/puzzleofvrindavan/hero-placeholder.svg") center / cover;
 }
 
 .game-card-body {
@@ -2514,28 +2514,47 @@ body.studio-home .back-to-top {
 }
 
 /*--------------------------------------------------------------
-# Operation Sindoor landing page
+# Game landing pages
 --------------------------------------------------------------*/
-.operation-page {
+.operation-page,
+.game-landing-page {
   background:
     radial-gradient(circle at 70% 10%, rgba(123, 38, 48, 0.3), transparent 28rem),
     radial-gradient(circle at 10% 22%, rgba(83, 191, 207, 0.12), transparent 22rem),
     linear-gradient(180deg, #070b18 0%, #101a3a 50%, #080f24 100%);
 }
 
-.operation-hero {
+.ramayan-page {
+  background:
+    radial-gradient(circle at 72% 12%, rgba(217, 164, 65, 0.18), transparent 28rem),
+    radial-gradient(circle at 8% 24%, rgba(52, 117, 72, 0.25), transparent 24rem),
+    linear-gradient(180deg, #070b18 0%, #101a3a 50%, #080f24 100%);
+}
+
+.vrindavan-page {
+  background:
+    radial-gradient(circle at 72% 12%, rgba(127, 45, 91, 0.24), transparent 28rem),
+    radial-gradient(circle at 12% 24%, rgba(33, 91, 116, 0.28), transparent 24rem),
+    radial-gradient(circle at 45% 5%, rgba(217, 164, 65, 0.16), transparent 22rem),
+    linear-gradient(180deg, #070b18 0%, #101a3a 50%, #080f24 100%);
+}
+
+.operation-hero,
+.game-landing-hero {
   min-height: 94vh;
   overflow: hidden;
   padding: 132px 0 72px;
   position: relative;
 }
 
-.operation-hero-bg {
+.operation-hero-bg,
+.game-landing-hero-bg {
   position: absolute;
   inset: 0;
 }
 
-.operation-hero-bg img {
+.operation-hero-bg img,
+.game-landing-hero-bg img {
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -2543,7 +2562,8 @@ body.studio-home .back-to-top {
   width: 100%;
 }
 
-.operation-hero::after {
+.operation-hero::after,
+.game-landing-hero::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -2552,13 +2572,15 @@ body.studio-home .back-to-top {
     radial-gradient(circle at 62% 34%, rgba(217, 164, 65, 0.2), transparent 24rem);
 }
 
-.operation-hero-inner {
+.operation-hero-inner,
+.game-landing-hero-inner {
   max-width: 900px;
   position: relative;
   z-index: 1;
 }
 
-.operation-hero h1 {
+.operation-hero h1,
+.game-landing-hero h1 {
   color: var(--studio-cream);
   font-size: clamp(46px, 8vw, 104px);
   line-height: 0.95;
@@ -2566,7 +2588,8 @@ body.studio-home .back-to-top {
   text-transform: uppercase;
 }
 
-.operation-hero h2 {
+.operation-hero h2,
+.game-landing-hero h2 {
   color: #f5cc78;
   font-family: "Merriweather", serif;
   font-size: clamp(22px, 3vw, 36px);
@@ -2574,36 +2597,47 @@ body.studio-home .back-to-top {
   margin-bottom: 22px;
 }
 
-.operation-hero p {
+.operation-hero p,
+.game-landing-hero p {
   color: var(--studio-muted);
   font-size: 18px;
   max-width: 760px;
 }
 
-.operation-split {
+.operation-split,
+.game-landing-split {
   align-items: center;
   display: grid;
   gap: 42px;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 0.86fr);
 }
 
-.operation-split.reverse {
+.operation-split.reverse,
+.game-landing-split.reverse {
   align-items: stretch;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .operation-about p,
+.game-landing-about p,
 .operation-text-band p,
+.game-landing-text-band p,
 .operation-text-card p,
-.operation-text-card li {
+.game-landing-text-card p,
+.operation-text-card li,
+.game-landing-text-card li {
   color: var(--studio-muted);
   font-size: 17px;
 }
 
 .operation-image-card,
+.game-landing-image-card,
 .operation-text-card,
+.game-landing-text-card,
 .operation-download-card,
+.game-landing-download-card,
 .operation-feature-grid article,
+.game-landing-feature-grid article,
 .screenshot-grid figure {
   border: 1px solid var(--studio-line);
   border-radius: 8px;
@@ -2611,13 +2645,15 @@ body.studio-home .back-to-top {
   overflow: hidden;
 }
 
-.operation-image-card {
+.operation-image-card,
+.game-landing-image-card {
   background: rgba(242, 223, 189, 0.94);
   margin: 0;
   padding: 12px;
 }
 
 .operation-image-card img,
+.game-landing-image-card img,
 .screenshot-grid img {
   border-radius: 6px;
   display: block;
@@ -2625,21 +2661,27 @@ body.studio-home .back-to-top {
 }
 
 .operation-features,
+.game-landing-features,
 .operation-gameplay,
-.operation-download {
+.game-landing-gameplay,
+.operation-download,
+.game-landing-download {
   background: rgba(255, 247, 231, 0.035);
   border-bottom: 1px solid rgba(217, 164, 65, 0.08);
   border-top: 1px solid rgba(217, 164, 65, 0.12);
 }
 
-.operation-feature-grid {
+.operation-feature-grid,
+.game-landing-feature-grid {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .operation-feature-grid article,
-.operation-text-card {
+.game-landing-feature-grid article,
+.operation-text-card,
+.game-landing-text-card {
   background:
     linear-gradient(135deg, rgba(83, 191, 207, 0.08), transparent 40%),
     rgba(16, 26, 58, 0.84);
@@ -2647,35 +2689,44 @@ body.studio-home .back-to-top {
 }
 
 .operation-feature-grid h3,
+.game-landing-feature-grid h3,
 .operation-text-band h2,
+.game-landing-text-band h2,
 .operation-text-card h2,
-.operation-download-card h2 {
+.game-landing-text-card h2,
+.operation-download-card h2,
+.game-landing-download-card h2 {
   color: var(--studio-cream);
   font-size: clamp(24px, 3vw, 38px);
   line-height: 1.2;
 }
 
-.operation-feature-grid h3 {
+.operation-feature-grid h3,
+.game-landing-feature-grid h3 {
   font-family: "Inter", sans-serif;
   font-size: 19px;
 }
 
-.operation-feature-grid p {
+.operation-feature-grid p,
+.game-landing-feature-grid p {
   color: var(--studio-muted);
   margin-bottom: 0;
 }
 
-.operation-text-band {
+.operation-text-band,
+.game-landing-text-band {
   margin: 0 auto;
   max-width: 940px;
   text-align: center;
 }
 
-.operation-text-band h2 {
+.operation-text-band h2,
+.game-landing-text-band h2 {
   margin-bottom: 24px;
 }
 
-.operation-text-card ul {
+.operation-text-card ul,
+.game-landing-text-card ul {
   margin-bottom: 18px;
   padding-left: 20px;
 }
@@ -2699,7 +2750,8 @@ body.studio-home .back-to-top {
   padding: 14px 6px 6px;
 }
 
-.operation-download-card {
+.operation-download-card,
+.game-landing-download-card {
   background:
     linear-gradient(145deg, rgba(242, 223, 189, 0.95), rgba(215, 183, 124, 0.9)),
     repeating-linear-gradient(8deg, rgba(92, 56, 22, 0.08) 0 2px, transparent 2px 14px);
@@ -2711,30 +2763,39 @@ body.studio-home .back-to-top {
 }
 
 .operation-download-card .eyebrow,
+.game-landing-download-card .eyebrow,
 .operation-download-card h2,
-.operation-download-card p {
+.game-landing-download-card h2,
+.operation-download-card p,
+.game-landing-download-card p {
   color: #241a12;
 }
 
-.operation-download-card .hero-actions {
+.operation-download-card .hero-actions,
+.game-landing-download-card .hero-actions {
   margin-top: 24px;
 }
 
 @media (max-width: 991px) {
   .operation-split,
+  .game-landing-split,
   .operation-split.reverse,
-  .operation-feature-grid {
+  .game-landing-split.reverse,
+  .operation-feature-grid,
+  .game-landing-feature-grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 767px) {
-  .operation-hero {
+  .operation-hero,
+  .game-landing-hero {
     min-height: auto;
     padding: 118px 0 58px;
   }
 
-  .operation-hero p {
+  .operation-hero p,
+  .game-landing-hero p {
     font-size: 16px;
   }
 

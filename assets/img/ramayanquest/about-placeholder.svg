@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ramayan Quest about placeholder</title>
+  <desc id="desc">Painterly temple and forest placeholder.</desc>
+  <rect width="1200" height="900" fill="#f2dfbd"/>
+  <path d="M0 650 C230 520 420 650 610 520 C820 380 990 430 1200 300 L1200 900 L0 900 Z" fill="#101a3a" opacity="0.84"/>
+  <circle cx="880" cy="250" r="140" fill="#d9a441" opacity="0.38"/>
+  <path d="M320 555 L510 245 L700 555 Z" fill="#214832" opacity="0.82"/>
+  <path d="M456 555 L510 395 L566 555 Z" fill="#f2dfbd" opacity="0.74"/>
+  <text x="96" y="785" fill="#fff7e7" font-family="Georgia, serif" font-size="58" font-weight="700">Mythology Journey Placeholder</text>
+</svg>
