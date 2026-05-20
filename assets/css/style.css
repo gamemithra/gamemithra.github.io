@@ -1817,16 +1817,17 @@ body.studio-home .navbar-mobile a:focus {
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  opacity: 0.24;
-  filter: saturate(0.88) contrast(1.08);
+  opacity: 0.78;
+  filter: saturate(0.96) contrast(1.06);
 }
 
 .hero-paint-overlay {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(8, 15, 36, 0.96), rgba(8, 15, 36, 0.76) 48%, rgba(8, 15, 36, 0.92)),
-    radial-gradient(circle at 72% 34%, rgba(240, 138, 47, 0.22), transparent 24rem),
+    linear-gradient(90deg, rgba(8, 15, 36, 0.96), rgba(8, 15, 36, 0.78) 42%, rgba(8, 15, 36, 0.5) 72%, rgba(8, 15, 36, 0.74)),
+    linear-gradient(0deg, rgba(8, 15, 36, 0.88), transparent 42%),
+    radial-gradient(circle at 72% 34%, rgba(240, 138, 47, 0.16), transparent 24rem),
     linear-gradient(135deg, transparent 0 42%, rgba(83, 191, 207, 0.12) 42% 42.3%, transparent 42.3% 58%, rgba(217, 164, 65, 0.14) 58% 58.3%, transparent 58.3%),
     repeating-linear-gradient(105deg, rgba(255, 247, 231, 0.04) 0 2px, transparent 2px 20px);
 }
@@ -1870,12 +1871,12 @@ body.studio-home .navbar-mobile a:focus {
 .hero-inner {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 920px);
-  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+  gap: 40px;
   align-items: center;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
+  justify-content: start;
+  justify-items: start;
+  text-align: left;
 }
 
 .eyebrow,
@@ -1935,8 +1936,8 @@ body.studio-home .navbar-mobile a:focus {
   color: var(--studio-muted);
   margin-bottom: 28px;
   max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #hero.hero-studio .eyebrow {
@@ -1953,7 +1954,7 @@ body.studio-home .navbar-mobile a:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .tech-chips,
@@ -1965,7 +1966,7 @@ body.studio-home .navbar-mobile a:focus {
 }
 
 .tech-chips {
-  margin: 0 auto 28px;
+  margin: 0 0 28px;
   max-width: 760px;
 }
 
@@ -2478,6 +2479,10 @@ body.studio-home .back-to-top {
   .hero-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .hero-inner {
+    text-align: left;
   }
 
   .btn-primary-studio,
