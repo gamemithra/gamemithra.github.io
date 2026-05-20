@@ -2803,3 +2803,234 @@ body.studio-home .back-to-top {
     grid-template-columns: 1fr;
   }
 }
+
+/*--------------------------------------------------------------
+# Mini Interactive Experiences
+--------------------------------------------------------------*/
+.mini-experience-section {
+  background:
+    radial-gradient(circle at 82% 14%, rgba(83, 191, 207, 0.1), transparent 20rem),
+    rgba(255, 247, 231, 0.025);
+  border-bottom: 1px solid rgba(217, 164, 65, 0.08);
+  border-top: 1px solid rgba(217, 164, 65, 0.12);
+}
+
+.mini-card,
+.mini-fallback {
+  border: 1px solid var(--studio-line);
+  border-radius: 8px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
+  overflow: hidden;
+  padding: clamp(22px, 4vw, 38px);
+  position: relative;
+}
+
+.mini-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.42;
+  pointer-events: none;
+}
+
+.mini-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mini-card-operation {
+  background:
+    linear-gradient(135deg, rgba(8, 15, 36, 0.96), rgba(16, 26, 58, 0.92)),
+    radial-gradient(circle at 76% 18%, rgba(255, 247, 231, 0.18), transparent 18rem);
+}
+
+.mini-card-operation::before {
+  background:
+    linear-gradient(115deg, transparent 0 45%, rgba(195, 225, 238, 0.16) 45% 45.4%, transparent 45.4%),
+    radial-gradient(circle at 84% 22%, rgba(211, 231, 240, 0.22), transparent 13rem);
+}
+
+.mini-card-ramayan {
+  background:
+    linear-gradient(145deg, rgba(242, 223, 189, 0.95), rgba(215, 183, 124, 0.9)),
+    repeating-linear-gradient(8deg, rgba(92, 56, 22, 0.08) 0 2px, transparent 2px 14px);
+}
+
+.mini-card-ramayan::before {
+  background:
+    radial-gradient(circle at 84% 20%, rgba(240, 138, 47, 0.22), transparent 14rem),
+    linear-gradient(90deg, transparent 0 48%, rgba(52, 117, 72, 0.14) 48% 48.4%, transparent 48.4%);
+}
+
+.mini-card-vrindavan {
+  background:
+    linear-gradient(145deg, rgba(255, 247, 231, 0.94), rgba(242, 223, 189, 0.88)),
+    radial-gradient(circle at 82% 18%, rgba(127, 45, 91, 0.22), transparent 14rem);
+}
+
+.mini-card-vrindavan::before {
+  background:
+    radial-gradient(circle at 82% 24%, rgba(33, 91, 116, 0.22), transparent 12rem),
+    repeating-linear-gradient(90deg, rgba(217, 164, 65, 0.14) 0 1px, transparent 1px 84px);
+}
+
+.mini-dialogue {
+  color: var(--studio-gold);
+  font-family: "Merriweather", serif;
+  font-size: clamp(17px, 2vw, 22px);
+  margin-bottom: 14px;
+}
+
+.mini-card h3 {
+  color: var(--studio-cream);
+  font-size: clamp(25px, 3vw, 40px);
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.mini-card-ramayan .mini-dialogue,
+.mini-card-vrindavan .mini-dialogue,
+.mini-card-ramayan h3,
+.mini-card-vrindavan h3 {
+  color: #241a12;
+}
+
+.mini-options {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 24px 0;
+}
+
+.mini-option {
+  align-items: center;
+  background: rgba(255, 247, 231, 0.06);
+  border: 1px solid rgba(217, 164, 65, 0.28);
+  border-radius: 8px;
+  color: var(--studio-cream);
+  cursor: pointer;
+  display: flex;
+  font-weight: 800;
+  gap: 10px;
+  justify-content: flex-start;
+  min-height: 58px;
+  padding: 13px 14px;
+  text-align: left;
+  transition: background 0.24s ease, border-color 0.24s ease, transform 0.24s ease;
+}
+
+.mini-card-ramayan .mini-option,
+.mini-card-vrindavan .mini-option {
+  background: rgba(16, 26, 58, 0.06);
+  color: #241a12;
+}
+
+.mini-option span {
+  align-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: inline-flex;
+  flex: 0 0 28px;
+  height: 28px;
+  justify-content: center;
+  opacity: 0.78;
+  width: 28px;
+}
+
+.mini-option:hover,
+.mini-option:focus-visible {
+  border-color: var(--studio-gold);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.mini-option:disabled {
+  cursor: default;
+  opacity: 0.72;
+}
+
+.mini-option.is-selected {
+  opacity: 1;
+}
+
+.mini-option.is-correct {
+  background: rgba(61, 146, 94, 0.24);
+  border-color: rgba(100, 215, 139, 0.75);
+}
+
+.mini-option.is-wrong {
+  background: rgba(153, 50, 50, 0.24);
+  border-color: rgba(230, 91, 91, 0.75);
+}
+
+.mini-feedback {
+  background: rgba(255, 247, 231, 0.08);
+  border-left: 3px solid var(--studio-gold);
+  color: var(--studio-cream);
+  font-family: "Merriweather", serif;
+  line-height: 1.7;
+  margin-top: 18px;
+  padding: 16px 18px;
+}
+
+.mini-card-ramayan .mini-feedback,
+.mini-card-vrindavan .mini-feedback {
+  background: rgba(16, 26, 58, 0.06);
+  color: #241a12;
+}
+
+.mini-cta {
+  border-top: 1px solid rgba(217, 164, 65, 0.24);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.mini-cta p {
+  color: var(--studio-cream);
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.mini-card-ramayan .mini-cta p,
+.mini-card-vrindavan .mini-cta p {
+  color: #241a12;
+}
+
+.mini-return-note {
+  color: var(--studio-muted);
+  font-size: 13px;
+  margin: 18px 0 0;
+}
+
+.mini-card-ramayan .mini-return-note,
+.mini-card-vrindavan .mini-return-note {
+  color: rgba(36, 26, 18, 0.74);
+}
+
+.mini-fallback {
+  background: rgba(16, 26, 58, 0.86);
+  color: var(--studio-muted);
+}
+
+.mini-fallback a + a {
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .mini-options {
+    grid-template-columns: 1fr;
+  }
+
+  .mini-option {
+    min-height: 54px;
+  }
+
+  .mini-fallback a {
+    width: 100%;
+  }
+
+  .mini-fallback a + a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
