@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Operation Sindoor screenshot placeholder four</title>
+  <desc id="desc">Placeholder screenshot for a courage at home scene.</desc>
+  <rect width="1200" height="675" fill="#7b2630"/>
+  <rect x="0" y="0" width="1200" height="675" fill="#d9a441" opacity="0.12"/>
+  <rect x="112" y="120" width="430" height="330" rx="12" fill="#f2dfbd" opacity="0.72"/>
+  <path d="M660 520 C710 410 805 340 940 280 C880 400 872 500 910 610 C820 592 735 560 660 520 Z" fill="#101a3a" opacity="0.75"/>
+  <text x="88" y="585" fill="#fff7e7" font-family="Georgia, serif" font-size="48">Courage begins at home.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Operation Sindoor hero placeholder</title>
+  <desc id="desc">Painterly placeholder for the Operation Sindoor hero image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101a3a"/>
+      <stop offset="0.48" stop-color="#5a1f28"/>
+      <stop offset="1" stop-color="#d8a042"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.22"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.45"/>
+  <path d="M0 780 C260 660 420 840 690 705 C980 560 1210 650 1600 490 L1600 1000 L0 1000 Z" fill="#0b1228" opacity="0.78"/>
+  <circle cx="1160" cy="250" r="170" fill="#f2dfbd" opacity="0.18"/>
+  <path d="M930 610 C1000 475 1088 398 1196 336 C1120 472 1092 584 1114 745 C1045 718 984 674 930 610 Z" fill="#f2dfbd" opacity="0.45"/>
+  <path d="M150 220 H560 M150 260 H450 M150 300 H610" stroke="#f2dfbd" stroke-width="10" opacity="0.32"/>
+  <text x="150" y="430" fill="#fff7e7" font-family="Georgia, serif" font-size="92" font-weight="700">OPERATION SINDOOR</text>
+  <text x="154" y="500" fill="#f2dfbd" font-family="Arial, sans-serif" font-size="34">Hero image placeholder - replace later</text>
+</svg>
