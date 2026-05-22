@@ -2143,7 +2143,27 @@ body.studio-home .navbar-mobile a:focus {
 .game-card {
   background: rgba(242, 223, 189, 0.95);
   color: #241a12;
+  cursor: pointer;
   overflow: hidden;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.game-card:hover,
+.game-card:focus-within {
+  border-color: rgba(217, 164, 65, 0.72);
+  transform: translateY(-3px);
+}
+
+.card-overlay-link {
+  border-radius: inherit;
+  inset: 0;
+  position: absolute;
+  z-index: 3;
+}
+
+.card-overlay-link:focus-visible {
+  outline: 3px solid var(--studio-gold);
+  outline-offset: 3px;
 }
 
 .game-art {
@@ -2183,6 +2203,8 @@ body.studio-home .navbar-mobile a:focus {
 
 .game-card-body {
   padding: 26px;
+  position: relative;
+  z-index: 2;
 }
 
 .game-card h3,
@@ -2205,6 +2227,8 @@ body.studio-home .navbar-mobile a:focus {
 }
 
 .text-link {
+  color: inherit;
+  display: inline-flex;
   font-weight: 800;
 }
 
@@ -2790,14 +2814,29 @@ body.studio-home .back-to-top {
 .screenshot-grid figure {
   background: rgba(16, 26, 58, 0.82);
   margin: 0;
-  padding: 12px;
+  padding: 0;
+  position: relative;
+}
+
+.screenshot-grid figure::after {
+  background: linear-gradient(180deg, transparent 32%, rgba(7, 12, 28, 0.86));
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
 }
 
 .screenshot-grid figcaption {
   color: var(--studio-cream);
   font-family: "Merriweather", serif;
   font-size: 16px;
-  padding: 14px 6px 6px;
+  inset: auto 0 0;
+  line-height: 1.45;
+  padding: 52px 20px 18px;
+  position: absolute;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.56);
+  z-index: 2;
 }
 
 .operation-download-card,
