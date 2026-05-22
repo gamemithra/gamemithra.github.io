@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Ramayan Quest screenshot placeholder three</title>
-  <desc id="desc">Chapter wisdom placeholder.</desc>
-  <rect width="1200" height="675" fill="#f2dfbd"/>
-  <path d="M0 0 H1200 V675 H0 Z" fill="#101a3a" opacity="0.12"/>
-  <rect x="155" y="110" width="340" height="390" rx="12" fill="#214832" opacity="0.82"/>
-  <rect x="535" y="150" width="500" height="280" rx="12" fill="#101a3a" opacity="0.82"/>
-  <text x="80" y="600" fill="#241a12" font-family="Georgia, serif" font-size="46">Wisdom hidden in every chapter.</text>
-</svg>

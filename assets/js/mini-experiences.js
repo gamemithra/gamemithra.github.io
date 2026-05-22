@@ -13,7 +13,7 @@
       ctaText: "Continue the mission in Operation Sindoor.",
       appStoreText: "Download on App Store",
       googlePlayText: "Get it on Google Play",
-      // TODO: Replace placeholder store links when Operation Sindoor app pages are live.
+      // TODO: Replace with live store links when Operation Sindoor app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
     },
@@ -28,7 +28,7 @@
       ctaText: "Discover more stories in Ramayan Quest.",
       appStoreText: "Download on App Store",
       googlePlayText: "Get it on Google Play",
-      // TODO: Replace placeholder store links when Ramayan Quest app pages are live.
+      // TODO: Replace with live store links when Ramayan Quest app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
     },
@@ -43,7 +43,7 @@
       ctaText: "Relax into the full puzzle journey.",
       appStoreText: "Download on App Store",
       googlePlayText: "Get it on Google Play",
-      // TODO: Replace placeholder store links when Puzzle of Vrindavan app pages are live.
+      // TODO: Replace with live store links when Puzzle of Vrindavan app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
     }
@@ -86,8 +86,8 @@
       <div class="mini-cta" hidden>
         <p>${config.ctaText}</p>
         <div class="hero-actions">
-          <a class="btn-primary-studio placeholder-link" href="${config.appStoreUrl}">${config.appStoreText}</a>
-          <a class="btn-primary-studio placeholder-link" href="${config.googlePlayUrl}">${config.googlePlayText}</a>
+          <a class="btn-primary-studio" href="${config.appStoreUrl}">${config.appStoreText}</a>
+          <a class="btn-primary-studio" href="${config.googlePlayUrl}">${config.googlePlayText}</a>
         </div>
       </div>
       ${previousAnswer ? `<p class="mini-return-note">You have tried this mini experience before. Choose again to replay the moment.</p>` : ""}

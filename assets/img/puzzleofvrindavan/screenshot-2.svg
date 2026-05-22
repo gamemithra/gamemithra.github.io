@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Puzzle of Vrindavan screenshot placeholder two</title>
-  <desc id="desc">Hidden symbol placeholder.</desc>
-  <rect width="1200" height="675" fill="#215b74"/>
-  <circle cx="600" cy="290" r="120" fill="#f2dfbd" opacity="0.75"/>
-  <path d="M548 310 C615 235 705 228 770 285 C675 292 620 350 585 430 C572 382 560 345 548 310 Z" fill="#2f7d55" opacity="0.85"/>
-  <path d="M0 510 C200 405 370 520 575 405 C830 270 1000 320 1200 220 L1200 675 L0 675 Z" fill="#7f2d5b" opacity="0.68"/>
-  <text x="80" y="575" fill="#fff7e7" font-family="Georgia, serif" font-size="48">Reveal hidden symbols.</text>
-</svg>

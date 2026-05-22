@@ -1817,19 +1817,19 @@ body.studio-home .navbar-mobile a:focus {
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  opacity: 0.78;
-  filter: saturate(0.96) contrast(1.06);
+  opacity: 0.92;
+  filter: saturate(1.04) contrast(1.04);
 }
 
 .hero-paint-overlay {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(8, 15, 36, 0.96), rgba(8, 15, 36, 0.78) 42%, rgba(8, 15, 36, 0.5) 72%, rgba(8, 15, 36, 0.74)),
-    linear-gradient(0deg, rgba(8, 15, 36, 0.88), transparent 42%),
-    radial-gradient(circle at 72% 34%, rgba(240, 138, 47, 0.16), transparent 24rem),
+    linear-gradient(90deg, rgba(8, 15, 36, 0.94), rgba(8, 15, 36, 0.7) 42%, rgba(8, 15, 36, 0.2) 72%, rgba(8, 15, 36, 0.36)),
+    linear-gradient(0deg, rgba(8, 15, 36, 0.72), transparent 46%),
+    radial-gradient(circle at 72% 34%, rgba(240, 138, 47, 0.1), transparent 24rem),
     linear-gradient(135deg, transparent 0 42%, rgba(83, 191, 207, 0.12) 42% 42.3%, transparent 42.3% 58%, rgba(217, 164, 65, 0.14) 58% 58.3%, transparent 58.3%),
-    repeating-linear-gradient(105deg, rgba(255, 247, 231, 0.04) 0 2px, transparent 2px 20px);
+    repeating-linear-gradient(105deg, rgba(255, 247, 231, 0.025) 0 2px, transparent 2px 20px);
 }
 
 .hero-studio::before,
@@ -2022,19 +2022,17 @@ body.studio-home .navbar-mobile a:focus {
 }
 
 .store-badge {
+  align-items: center;
   display: inline-flex;
+  min-height: 56px;
   line-height: 0;
 }
 
 .store-badge img {
   display: block;
-  height: 46px;
-  max-width: 154px;
+  height: 56px;
+  max-width: 188px;
   width: auto;
-}
-
-.store-badge.placeholder-link::after {
-  content: "";
 }
 
 .hero-art-panel {
@@ -2186,7 +2184,7 @@ body.studio-home .navbar-mobile a:focus {
 .ramayan-art {
   background:
     linear-gradient(145deg, rgba(18, 56, 41, 0.3), rgba(91, 44, 24, 0.5)),
-    url("../img/ramayanquest/RamayanQuest_app_icon.webp") center / cover;
+    url("../img/ramayanquest/hero.webp") center / cover;
 }
 
 .sindoor-art {
@@ -2198,7 +2196,7 @@ body.studio-home .navbar-mobile a:focus {
 .vrindavan-art {
   background:
     linear-gradient(145deg, rgba(30, 83, 96, 0.42), rgba(204, 139, 43, 0.34)),
-    url("../img/puzzleofvrindavan/hero-placeholder.webp") center / cover;
+    url("../img/puzzleofvrindavan/hero.webp") center / cover;
 }
 
 .game-card-body {
@@ -2230,18 +2228,6 @@ body.studio-home .navbar-mobile a:focus {
   color: inherit;
   display: inline-flex;
   font-weight: 800;
-}
-
-.placeholder-link::after {
-  content: "  (placeholder)";
-  color: rgba(255, 247, 231, 0.58);
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.game-card .placeholder-link::after,
-.press-card .placeholder-link::after {
-  color: rgba(73, 48, 22, 0.62);
 }
 
 .casual-projects,
@@ -2435,7 +2421,7 @@ body.studio-home .navbar-mobile a:focus {
   color: var(--studio-muted);
 }
 
-.placeholder-note {
+.inquiry-note {
   border-top: 1px solid var(--studio-line);
   margin-top: 18px;
   padding-top: 18px;
@@ -2551,7 +2537,7 @@ body.studio-home .back-to-top {
 
   .store-badge,
   .store-badge img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .project-card,
@@ -2809,6 +2795,12 @@ body.studio-home .back-to-top {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.screenshot-grid-single {
+  grid-template-columns: minmax(0, 1fr);
+  margin: 0 auto;
+  max-width: 760px;
 }
 
 .screenshot-grid figure {
