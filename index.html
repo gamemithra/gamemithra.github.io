@@ -1,334 +1,584 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Gamemithra Studios | Mythic Indian Games & Interactive Stories
+    </title>
+    <meta
+      name="description"
+      content="Gamemithra Studios creates painterly Indian games and interactive stories rooted in mythology, education, history, family, courage, culture, and narrative storytelling."
+    />
+    <meta
+      name="keywords"
+      content="Gamemithra Studios, Indian games, mythology games, educational games, visual novels, Unity games, AR GPS games"
+    />
+    <meta
+      property="og:title"
+      content="Gamemithra Studios | Mythic Indian Games & Interactive Stories"
+    />
+    <meta
+      property="og:description"
+      content="Painterly mythological games and interactive Indian stories for mobile and emerging platforms."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://GameMithra.com/" />
+    <meta property="og:image" content="assets/img/gm_logo.png" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gamemithra Studios | Mythic Indian Games & Interactive Stories</title>
-  <meta name="description" content="Gamemithra Studios creates painterly Indian games and interactive stories rooted in mythology, education, history, family, courage, culture, and narrative storytelling.">
-  <meta name="keywords" content="Gamemithra Studios, Indian games, mythology games, educational games, visual novels, Unity games, AR GPS games">
-  <meta property="og:title" content="Gamemithra Studios | Mythic Indian Games & Interactive Stories">
-  <meta property="og:description" content="Painterly mythological games and interactive Indian stories for mobile and emerging platforms.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://GameMithra.com/">
-  <meta property="og:image" content="assets/img/gm_logo.png">
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel:500,600,700|Inter:400,500,600,700|Merriweather:400,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Cinzel:500,600,700|Inter:400,500,600,700|Merriweather:400,700&amp;display=swap" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body class="studio-home">
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <a class="studio-logo" href="index.html" aria-label="Gamemithra Studios home">
-          <img src="assets/img/gm_logo.png" alt="Gamemithra Studios logo">
-          <span>Gamemithra</span>
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Games</a></li>
-          <li><a class="nav-link scrollto" href="#play-online">Play Online</a></li>
-          <li><a class="nav-link scrollto" href="#visual-novels">Visual Novels</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#about">Philosophy</a></li>
-          <li><a class="nav-link scrollto" href="#team">Studio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </div>
-  </header>
-
-  <section id="hero" class="hero-studio">
-    <img class="hero-video" src="assets/img/operationsindoor/hero.jpg" alt="Operation Sindoor cinematic key art">
-    <div class="hero-paint-overlay"></div>
-    <div class="container hero-inner">
-      <div class="hero-copy" data-aos="fade-up">
-        <p class="eyebrow">Gamemithra Studios presents</p>
-        <h1>Operation Sindoor</h1>
-        <h2>A Painterly Visual Novel of Courage, Family, and Dreams</h2>
-        <p class="hero-lede">A cinematic interactive story where family conversations, television headlines, and a child's dreams become symbolic missions.</p>
-        <div class="tech-chips" aria-label="Studio technology focus">
-          <span>Visual Novel</span>
-          <span>Story Missions</span>
-          <span>Educational Play</span>
-          <span>Unity</span>
-          <span>Mobile</span>
-        </div>
-        <div class="hero-actions">
-          <a class="btn-primary-studio" href="operationsindoor.html">Explore Operation Sindoor</a>
-          <a class="btn-secondary-studio scrollto" href="#portfolio">View All Games</a>
-          <a class="btn-secondary-studio scrollto" href="#press">Press Kit</a>
-        </div>
-      </div>
-      <div class="hero-art-panel" data-aos="fade-left" data-aos-delay="150">
-        <span class="panel-kicker">Studio Direction</span>
-        <h3>Painterly Indian games and interactive stories.</h3>
-        <p>Gamemithra Studios creates mythology-inspired, educational, narrative, and culturally rooted experiences for mobile and emerging platforms.</p>
-        <div class="creative-stack" aria-label="Creative technology stack">
-          <span>Mythology</span>
-          <span>Family stories</span>
-          <span>Story systems</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <main id="main">
-    <section id="portfolio" class="studio-section featured-games">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Featured Games</h2>
-          <p>Story-first Indian worlds</p>
+  <body class="studio-home">
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a
+            class="studio-logo"
+            href="index.html"
+            aria-label="Gamemithra Studios home"
+          >
+            <img src="assets/img/gm_logo.png" alt="Gamemithra Studios logo" />
+            <span>Gamemithra</span>
+          </a>
         </div>
 
-        <div class="featured-grid">
-          <article class="game-card game-card-large" data-aos="fade-up">
-            <div class="game-art ramayan-art" role="img" aria-label="Painterly forest temple placeholder for Ramayan Quest"></div>
-            <div class="game-card-body">
-              <p class="game-label">Mythology Quiz Adventure</p>
-              <h3>Ramayan Quest</h3>
-              <p>A mythology quiz-adventure blending storytelling, cultural learning, and interactive progression.</p>
-              <a class="text-link" href="ramayanquest.html" aria-label="Open Ramayan Quest landing page">View landing page</a>
-            </div>
-          </article>
-
-          <article class="game-card game-card-large" data-aos="fade-up" data-aos-delay="100">
-            <div class="game-art sindoor-art" role="img" aria-label="Painterly mission dream-world placeholder for Operation Sindoor"></div>
-            <div class="game-card-body">
-              <p class="game-label">Painterly Visual Novel</p>
-              <h3>Operation Sindoor</h3>
-              <p>A painterly visual novel about family, courage, national memory, and a child's dream-world missions.</p>
-              <a class="text-link" href="operationsindoor.html" aria-label="Open Operation Sindoor landing page">View landing page</a>
-            </div>
-          </article>
-
-          <article class="game-card game-card-large" data-aos="fade-up" data-aos-delay="200">
-            <div class="game-art vrindavan-art" role="img" aria-label="Painterly Krishna puzzle garden placeholder for Puzzle of Vrindavan"></div>
-            <div class="game-card-body">
-              <p class="game-label">Cultural Puzzle Game</p>
-              <h3>Puzzle of Vrindavan</h3>
-              <p>A Krishna-themed puzzle experience with cultural art direction and casual strategy.</p>
-              <a class="text-link" href="puzzleofvrindavan.html" aria-label="Open Puzzle of Vrindavan landing page">View landing page</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="play-online" class="studio-section casual-projects">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Earlier &amp; Casual Projects</h2>
-          <p>Casual and educational experiments</p>
-        </div>
-
-        <div class="project-grid compact-grid">
-          <article class="project-card" data-aos="fade-up">
-            <img src="assets/img/html5-games-thumbs/mergeBlitz.jpeg" alt="MergeBlitz HTML5 game thumbnail">
-            <div>
-              <h3>Match-3 games</h3>
-              <p>Browser-friendly casual puzzle prototypes and match-based experiments.</p>
-              <a class="play-button" href="assets/html5games/mergeBlitz/index.html" target="_blank" rel="noopener">Play MergeBlitz</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/html5-games-thumbs/g2.jpeg" alt="Board-style HTML5 game thumbnail">
-            <div>
-              <h3>Ludo / board-style games</h3>
-              <p>Board-inspired web and mobile experiments with accessible rules and short sessions.</p>
-              <a class="play-button" href="assets/html5games/game2/index.html" target="_blank" rel="noopener">Play Demo</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/html5-games-thumbs/g3.jpeg" alt="Educational mini-game thumbnail">
-            <div>
-              <h3>Math and educational mini-games</h3>
-              <p>Small learning games that explore education through play and quick feedback loops.</p>
-              <a class="play-button" href="assets/html5games/web-mobile/index.html" target="_blank" rel="noopener">Play Demo</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="visual-novels" class="studio-section visual-novels">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Visual Novels</h2>
-          <p>Story demos and narrative prototypes</p>
-        </div>
-
-        <div class="project-grid compact-grid">
-          <article class="project-card" data-aos="fade-up">
-            <img src="assets/img/vn_thumbs/raja_harishchandra.jpg" alt="Raja Harishchandra visual novel thumbnail">
-            <div>
-              <h3>Raja Harishchandra</h3>
-              <p>A cultural story demo exploring truth, duty, and moral imagination.</p>
-              <a class="play-button" href="assets/visualNovels/rajaharishchandra/index.html" target="_blank" rel="noopener">Play Demo</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/vn_thumbs/vikram_vethal.jpg" alt="Vikram Vethal visual novel thumbnail">
-            <div>
-              <h3>Vikram Vethal</h3>
-              <p>A folklore-inspired interactive story prototype with riddle-like narrative choices.</p>
-              <a class="play-button" href="assets/visualNovels/vikramadithya/index.html" target="_blank" rel="noopener">Play Demo</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="studio-section services-section">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Services</h2>
-          <p>Interactive experiences</p>
-        </div>
-
-        <div class="services-intro" data-aos="fade-up">
-          <p>Games remain the core brand, and the studio is also exploring client and service work where culture, learning, mobile interaction, and playful systems meet.</p>
-          <p>Gamemithra Studios is also exploring AR/GPS-based interactive projects that combine real-world locations, social interaction, and mobile gameplay.</p>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card"><i class="bi bi-controller"></i><h3>Game development</h3></article>
-          <article class="service-card"><i class="bi bi-mortarboard"></i><h3>Educational game design</h3></article>
-          <article class="service-card"><i class="bi bi-brush"></i><h3>Mythology/culture-based interactive content</h3></article>
-          <article class="service-card"><i class="bi bi-geo-alt"></i><h3>AR / GPS-based location experiences</h3></article>
-          <article class="service-card"><i class="bi bi-phone"></i><h3>Mobile prototyping</h3></article>
-          <article class="service-card"><i class="bi bi-window"></i><h3>Unity and web-based interactive experiences</h3></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="studio-section philosophy-section">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Studio Philosophy</h2>
-          <p>Culture through play</p>
-        </div>
-
-        <div class="philosophy-layout">
-          <div class="philosophy-copy" data-aos="fade-right">
-            <p>Gamemithra Studios builds from Indian stories, painterly visuals, and accessible mobile experiences. The studio's work is shaped by mythology, memory, family-friendly design, and cultural imagination.</p>
-            <p>We believe games can make learning feel like discovery. Our worlds use narrative, puzzles, character moments, and handcrafted visual direction to support education through play.</p>
-          </div>
-          <ul class="philosophy-list" data-aos="fade-left">
-            <li>Indian stories and cultural roots</li>
-            <li>Loose oil-painting inspired art direction</li>
-            <li>Accessible mobile-first experiences</li>
-            <li>Education through play</li>
-            <li>Family-friendly interaction design</li>
-            <li>Mythology, memory, and cultural imagination</li>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Games</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#play-online">Play Online</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#visual-novels"
+                >Visual Novels</a
+              >
+            </li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="#about">Philosophy</a></li>
+            <li><a class="nav-link scrollto" href="#team">Studio</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
-        </div>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section id="press" class="studio-section press-section">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Press / Contact</h2>
-          <p>Press kit and studio links</p>
+    <section id="hero" class="hero-studio">
+      <img
+        class="hero-video"
+        src="assets/img/operationsindoor/hero.webp"
+        alt="Operation Sindoor cinematic key art"
+      />
+      <div class="hero-paint-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy" data-aos="fade-up">
+          <p class="eyebrow">Gamemithra Studios presents</p>
+          <h1>Operation Sindoor</h1>
+          <h2>A Painterly Visual Novel of Courage, Family, and Dreams</h2>
+          <p class="hero-lede">
+            A cinematic interactive story where family conversations, television
+            headlines, and a child's dreams become symbolic missions.
+          </p>
+          <div class="tech-chips" aria-label="Studio technology focus">
+            <span>Visual Novel</span>
+            <span>Story Missions</span>
+            <span>Educational Play</span>
+            <span>Unity</span>
+            <span>Mobile</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn-primary-studio" href="operationsindoor.html"
+              >Explore Operation Sindoor</a
+            >
+            <a class="btn-secondary-studio scrollto" href="#portfolio"
+              >View All Games</a
+            >
+            <a class="btn-secondary-studio scrollto" href="#press">Press Kit</a>
+          </div>
         </div>
-
-        <div class="press-grid">
-          <article class="press-card" data-aos="fade-up">
-            <h3>Press kit</h3>
-            <p>Logo, screenshots, game summaries, founder notes, and studio facts will be added here.</p>
-            <a class="btn-secondary-studio placeholder-link" href="#">Press kit placeholder</a>
-          </article>
-          <article class="press-card" data-aos="fade-up" data-aos-delay="100">
-            <h3>Store links</h3>
-            <p>Google Play, App Store, itch.io, Steam, and demo links can be connected when each release page is ready.</p>
-            <a class="btn-secondary-studio placeholder-link" href="#">Store links placeholder</a>
-          </article>
-          <article class="press-card" data-aos="fade-up" data-aos-delay="200">
-            <h3>Social links</h3>
-            <p>Instagram, Facebook, LinkedIn, YouTube, and other studio channels can be added here.</p>
-            <a class="btn-secondary-studio placeholder-link" href="#">Social links placeholder</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="studio-section team-section">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Studio</h2>
-          <p>Small studio, focused worlds</p>
-        </div>
-        <div class="studio-profile" data-aos="fade-up">
-          <img src="assets/img/team/team.jpg" alt="Gamemithra Studios team profile image">
-          <div>
-            <h3>Gamemithra Studios</h3>
-            <p>An independent game and interactive experience studio based in Kozhikode, Kerala, building Indian-themed story games, educational play, visual novels, and mobile prototypes.</p>
+        <div class="hero-art-panel" data-aos="fade-left" data-aos-delay="150">
+          <span class="panel-kicker">Studio Direction</span>
+          <h3>Indian Stories. Interactive Worlds..</h3>
+          <p>
+            Gamemithra Studios creates mythology-inspired, educational,
+            narrative, and culturally rooted experiences for mobile and emerging
+            platforms.
+          </p>
+          <div class="creative-stack" aria-label="Creative technology stack">
+            <span>Mythology</span>
+            <span>Family stories</span>
+            <span>Story systems</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="studio-section contact contact-section">
+    <main id="main">
+      <section id="portfolio" class="studio-section featured-games">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Featured Games</h2>
+            <p>Story-first Indian worlds</p>
+          </div>
+
+          <div class="featured-grid">
+            <article class="game-card game-card-large" data-aos="fade-up">
+              <div
+                class="game-art ramayan-art"
+                role="img"
+                aria-label="Painterly forest temple placeholder for Ramayan Quest"
+              ></div>
+              <div class="game-card-body">
+                <p class="game-label">Mythology Quiz Adventure</p>
+                <h3>Ramayan Quest</h3>
+                <p>
+                  A mythology quiz-adventure blending storytelling, cultural
+                  learning, and interactive progression.
+                </p>
+                <a
+                  class="text-link"
+                  href="ramayanquest.html"
+                  aria-label="Open Ramayan Quest landing page"
+                  >View landing page</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="game-card game-card-large"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div
+                class="game-art sindoor-art"
+                role="img"
+                aria-label="Painterly mission dream-world placeholder for Operation Sindoor"
+              ></div>
+              <div class="game-card-body">
+                <p class="game-label">Painterly Visual Novel</p>
+                <h3>Operation Sindoor</h3>
+                <p>
+                  A painterly visual novel about family, courage, national
+                  memory, and a child's dream-world missions.
+                </p>
+                <a
+                  class="text-link"
+                  href="operationsindoor.html"
+                  aria-label="Open Operation Sindoor landing page"
+                  >View landing page</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="game-card game-card-large"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="game-art vrindavan-art"
+                role="img"
+                aria-label="Painterly Krishna puzzle garden placeholder for Puzzle of Vrindavan"
+              ></div>
+              <div class="game-card-body">
+                <p class="game-label">Cultural Puzzle Game</p>
+                <h3>Puzzle of Vrindavan</h3>
+                <p>
+                  A Krishna-themed puzzle experience with cultural art direction
+                  and casual strategy.
+                </p>
+                <a
+                  class="text-link"
+                  href="puzzleofvrindavan.html"
+                  aria-label="Open Puzzle of Vrindavan landing page"
+                  >View landing page</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="play-online" class="studio-section casual-projects">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Earlier &amp; Casual Projects</h2>
+            <p>Casual and educational experiments</p>
+          </div>
+
+          <div class="project-grid compact-grid">
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="assets/img/html5-games-thumbs/mergeBlitz.jpeg"
+                alt="MergeBlitz HTML5 game thumbnail"
+              />
+              <div>
+                <h3>Match-3 games</h3>
+                <p>
+                  Browser-friendly casual puzzle prototypes and match-based
+                  experiments.
+                </p>
+                <a
+                  class="play-button"
+                  href="assets/html5games/mergeBlitz/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Play MergeBlitz</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/html5-games-thumbs/g2.jpeg"
+                alt="Board-style HTML5 game thumbnail"
+              />
+              <div>
+                <h3>Ludo / board-style games</h3>
+                <p>
+                  Board-inspired web and mobile experiments with accessible
+                  rules and short sessions.
+                </p>
+                <a
+                  class="play-button"
+                  href="assets/html5games/game2/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Play Demo</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/html5-games-thumbs/g3.jpeg"
+                alt="Educational mini-game thumbnail"
+              />
+              <div>
+                <h3>Math and educational mini-games</h3>
+                <p>
+                  Small learning games that explore education through play and
+                  quick feedback loops.
+                </p>
+                <a
+                  class="play-button"
+                  href="assets/html5games/web-mobile/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Play Demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="visual-novels" class="studio-section visual-novels">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Visual Novels</h2>
+            <p>Story demos and narrative prototypes</p>
+          </div>
+
+          <div class="project-grid compact-grid">
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="assets/img/vn_thumbs/raja_harishchandra.jpg"
+                alt="Raja Harishchandra visual novel thumbnail"
+              />
+              <div>
+                <h3>Raja Harishchandra</h3>
+                <p>
+                  A cultural story demo exploring truth, duty, and moral
+                  imagination.
+                </p>
+                <a
+                  class="play-button"
+                  href="assets/visualNovels/rajaharishchandra/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Play Demo</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/vn_thumbs/vikram_vethal.jpg"
+                alt="Vikram Vethal visual novel thumbnail"
+              />
+              <div>
+                <h3>Vikram Vethal</h3>
+                <p>
+                  A folklore-inspired interactive story prototype with
+                  riddle-like narrative choices.
+                </p>
+                <a
+                  class="play-button"
+                  href="assets/visualNovels/vikramadithya/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Play Demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="studio-section services-section">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Services</h2>
+            <p>Interactive experiences</p>
+          </div>
+
+          <div class="services-intro" data-aos="fade-up">
+            <p>
+              Games remain the core brand, and the studio is also exploring
+              client and service work where culture, learning, mobile
+              interaction, and playful systems meet.
+            </p>
+            <p>
+              Gamemithra Studios is also exploring AR/GPS-based interactive
+              projects that combine real-world locations, social interaction,
+              and mobile gameplay.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <i class="bi bi-controller"></i>
+              <h3>Game development</h3>
+            </article>
+            <article class="service-card">
+              <i class="bi bi-mortarboard"></i>
+              <h3>Educational game design</h3>
+            </article>
+            <article class="service-card">
+              <i class="bi bi-brush"></i>
+              <h3>Mythology/culture-based interactive content</h3>
+            </article>
+            <article class="service-card">
+              <i class="bi bi-geo-alt"></i>
+              <h3>AR / GPS-based location experiences</h3>
+            </article>
+            <article class="service-card">
+              <i class="bi bi-phone"></i>
+              <h3>Mobile prototyping</h3>
+            </article>
+            <article class="service-card">
+              <i class="bi bi-window"></i>
+              <h3>Unity and web-based interactive experiences</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="studio-section philosophy-section">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Studio Philosophy</h2>
+            <p>Culture through play</p>
+          </div>
+
+          <div class="philosophy-layout">
+            <div class="philosophy-copy" data-aos="fade-right">
+              <p>
+                Gamemithra Studios builds from Indian stories, painterly
+                visuals, and accessible mobile experiences. The studio's work is
+                shaped by mythology, memory, family-friendly design, and
+                cultural imagination.
+              </p>
+              <p>
+                We believe games can make learning feel like discovery. Our
+                worlds use narrative, puzzles, character moments, and
+                handcrafted visual direction to support education through play.
+              </p>
+            </div>
+            <ul class="philosophy-list" data-aos="fade-left">
+              <li>Indian stories and cultural roots</li>
+              <li>Loose oil-painting inspired art direction</li>
+              <li>Accessible mobile-first experiences</li>
+              <li>Education through play</li>
+              <li>Family-friendly interaction design</li>
+              <li>Mythology, memory, and cultural imagination</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="press" class="studio-section press-section">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Press / Contact</h2>
+            <p>Press kit and studio links</p>
+          </div>
+
+          <div class="press-grid">
+            <article class="press-card" data-aos="fade-up">
+              <h3>Press kit</h3>
+              <p>
+                Logo, screenshots, game summaries, founder notes, and studio
+                facts will be added here.
+              </p>
+              <a class="btn-secondary-studio placeholder-link" href="#"
+                >Press kit placeholder</a
+              >
+            </article>
+            <article class="press-card" data-aos="fade-up" data-aos-delay="100">
+              <h3>Store links</h3>
+              <p>
+                Google Play, App Store, itch.io, Steam, and demo links can be
+                connected when each release page is ready.
+              </p>
+              <a class="btn-secondary-studio placeholder-link" href="#"
+                >Store links placeholder</a
+              >
+            </article>
+            <article class="press-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>Social links</h3>
+              <p>
+                Follow Gamemithra Studios for game updates, art, development
+                notes, and release announcements.
+              </p>
+              <div class="social-link-list">
+                <a href="https://www.instagram.com/gamemithrastudios" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.facebook.com/GameMithra" target="_blank" rel="noopener">Facebook</a>
+                <a href="https://x.com/gamemithra" target="_blank" rel="noopener">X</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="studio-section team-section">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Studio</h2>
+            <p>Small studio, focused worlds</p>
+          </div>
+          <div class="studio-profile" data-aos="fade-up">
+            <img
+              src="assets/img/team/team.jpg"
+              alt="Gamemithra Studios team profile image"
+            />
+            <div>
+              <h3>Gamemithra Studios</h3>
+              <p>
+                An independent game and interactive experience studio based in
+                Kozhikode, Kerala, building Indian-themed story games,
+                educational play, visual novels, and mobile prototypes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="studio-section contact contact-section">
+        <div class="container">
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Contact</h2>
+            <p>Start a conversation</p>
+          </div>
+          <div class="contact-layout">
+            <div class="contact-card" data-aos="fade-right">
+              <h3>Gamemithra Studios</h3>
+              <p>Kozhikode, Kerala</p>
+              <p>
+                <a href="mailto:studio@gamemithra.com">studio@gamemithra.com</a>
+              </p>
+              <p class="placeholder-note">
+                For press, publishing, education, AR/GPS projects, or
+                collaboration inquiries.
+              </p>
+            </div>
+            <div class="map-wrap" data-aos="fade-left">
+              <iframe
+                title="Gamemithra Studios location map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.688486387911!2d75.77563711477251!3d11.249450399663325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba45ecbf8d2f8b3%3A0x12100d754bb3cbff!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1574781889464!5m2!1sen!2sin"
+                width="100%"
+                height="360"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
       <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Contact</h2>
-          <p>Start a conversation</p>
+        <h3>Gamemithra Studios</h3>
+        <p>Indian Stories. Interactive Worlds.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/gamemithrastudios" class="instagram" target="_blank" rel="noopener" aria-label="Gamemithra Studios on Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/GameMithra" class="facebook" target="_blank" rel="noopener" aria-label="Gamemithra Studios on Facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://x.com/gamemithra" class="twitter" target="_blank" rel="noopener" aria-label="Gamemithra Studios on X"
+            ><i class="bx bxl-twitter"></i
+          ></a>
         </div>
-        <div class="contact-layout">
-          <div class="contact-card" data-aos="fade-right">
-            <h3>Gamemithra Studios</h3>
-            <p>Kozhikode, Kerala</p>
-            <p><a href="mailto:gamemithra@gmail.com">gamemithra@gmail.com</a></p>
-            <p><a href="tel:+919449483594">+91 944949483594</a></p>
-            <p class="placeholder-note">For press, publishing, education, AR/GPS projects, or collaboration inquiries.</p>
-          </div>
-          <div class="map-wrap" data-aos="fade-left">
-            <iframe title="Gamemithra Studios location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.688486387911!2d75.77563711477251!3d11.249450399663325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba45ecbf8d2f8b3%3A0x12100d754bb3cbff!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1574781889464!5m2!1sen!2sin" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
+        <div class="copyright">&copy; 2026 Gamemithra. All Rights Reserved</div>
+        <a href="privacy_policy.html">Privacy Policy</a>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer id="footer">
-    <div class="container">
-      <h3>Gamemithra Studios</h3>
-      <p>Painterly mythological games and interactive Indian stories.</p>
-      <div class="social-links">
-        <a href="#" class="instagram" aria-label="Instagram placeholder"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="facebook" aria-label="Facebook placeholder"><i class="bx bxl-facebook"></i></a>
-      </div>
-      <div class="copyright">&copy; 2026 Gamemithra. All Rights Reserved</div>
-      <a href="privacy_policy.html">Privacy Policy</a>
-    </div>
-  </footer>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

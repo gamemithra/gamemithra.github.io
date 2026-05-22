@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Operation Sindoor screenshot placeholder one</title>
-  <desc id="desc">Placeholder screenshot for a headline memory scene.</desc>
-  <rect width="1200" height="675" fill="#101a3a"/>
-  <rect x="90" y="82" width="520" height="300" rx="10" fill="#f2dfbd" opacity="0.82"/>
-  <path d="M0 520 C210 430 360 520 560 420 C790 300 970 350 1200 235 L1200 675 L0 675 Z" fill="#5a1f28"/>
-  <text x="90" y="560" fill="#fff7e7" font-family="Georgia, serif" font-size="46">Every headline becomes memory.</text>
-</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Operation Sindoor screenshot placeholder two</title>
-  <desc id="desc">Placeholder screenshot for a dream mission scene.</desc>
-  <rect width="1200" height="675" fill="#0b1228"/>
-  <circle cx="920" cy="180" r="120" fill="#53bfcf" opacity="0.28"/>
-  <path d="M0 470 C160 310 330 520 520 360 C690 220 860 330 1200 150 L1200 675 L0 675 Z" fill="#163c48"/>
-  <path d="M590 445 C650 330 720 280 820 230 C760 342 750 440 785 560 C720 540 655 505 590 445 Z" fill="#f2dfbd" opacity="0.5"/>
-  <text x="80" y="575" fill="#fff7e7" font-family="Georgia, serif" font-size="48">Dreams become missions.</text>
-</svg>
