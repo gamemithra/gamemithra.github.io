@@ -2705,6 +2705,11 @@ body.studio-home .back-to-top {
   width: 100%;
 }
 
+.screenshot-grid img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .operation-features,
 .game-landing-features,
 .operation-gameplay,
