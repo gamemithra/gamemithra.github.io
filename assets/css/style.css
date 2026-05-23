@@ -2006,7 +2006,13 @@ body.studio-home .navbar-mobile a:focus {
 .btn-primary-studio {
   background: linear-gradient(135deg, var(--studio-gold), var(--studio-saffron));
   border: 1px solid rgba(255, 247, 231, 0.18);
-  color: #12162a;
+  color: #111827 !important;
+  text-decoration: none;
+}
+
+.btn-primary-studio:hover,
+.btn-primary-studio:focus-visible {
+  color: #111827 !important;
 }
 
 .btn-primary-studio:hover,

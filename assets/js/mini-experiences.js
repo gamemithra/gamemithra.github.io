@@ -11,8 +11,6 @@
       correctFeedback: "The valley holds the first clue. Footprints fade into snow, but memory leaves a trail.",
       wrongFeedback: "That path feels familiar, but the first clue is hidden deeper in the dream valley.",
       ctaText: "Continue the mission in Operation Sindoor.",
-      appStoreText: "Download on App Store",
-      googlePlayText: "Get it on Google Play",
       // TODO: Replace with live store links when Operation Sindoor app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
@@ -26,8 +24,6 @@
       correctFeedback: "Correct. Hanuman’s journey represents courage, devotion, and hope.",
       wrongFeedback: "Not quite. The answer is Hanuman — the messenger of courage and devotion.",
       ctaText: "Discover more stories in Ramayan Quest.",
-      appStoreText: "Download on App Store",
-      googlePlayText: "Get it on Google Play",
       // TODO: Replace with live store links when Ramayan Quest app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
@@ -41,8 +37,6 @@
       correctFeedback: "Correct. The peacock feather reveals the playful spirit of Vrindavan.",
       wrongFeedback: "Try looking for the symbol of Vrindavan’s playful charm — the peacock feather.",
       ctaText: "Relax into the full puzzle journey.",
-      appStoreText: "Download on App Store",
-      googlePlayText: "Get it on Google Play",
       // TODO: Replace with live store links when Puzzle of Vrindavan app pages are ready.
       appStoreUrl: "#app-store",
       googlePlayUrl: "#google-play"
@@ -86,8 +80,12 @@
       <div class="mini-cta" hidden>
         <p>${config.ctaText}</p>
         <div class="hero-actions">
-          <a class="btn-primary-studio" href="${config.appStoreUrl}">${config.appStoreText}</a>
-          <a class="btn-primary-studio" href="${config.googlePlayUrl}">${config.googlePlayText}</a>
+          <a class="store-badge" href="${config.appStoreUrl}" aria-label="Download on the App Store">
+            <img src="assets/img/appstore.svg" alt="Download on the App Store">
+          </a>
+          <a class="store-badge" href="${config.googlePlayUrl}" aria-label="Get it on Google Play">
+            <img src="assets/img/playstore.svg" alt="Get it on Google Play">
+          </a>
         </div>
       </div>
       ${previousAnswer ? `<p class="mini-return-note">You have tried this mini experience before. Choose again to replay the moment.</p>` : ""}
