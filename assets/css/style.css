@@ -2296,6 +2296,11 @@ body.studio-home .navbar-mobile a:focus {
   pointer-events: none;
 }
 
+.category-card-media a {
+  display: block;
+  height: 100%;
+}
+
 .category-card-media img {
   display: block;
   height: 100%;
@@ -2973,6 +2978,47 @@ body.studio-home .back-to-top {
   z-index: 2;
 }
 
+.gateway-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gateway-game-card {
+  background: rgba(16, 26, 58, 0.86);
+  border: 1px solid var(--studio-line);
+  border-radius: 8px;
+  color: var(--studio-cream);
+  display: grid;
+  overflow: hidden;
+}
+
+.gateway-game-card img {
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gateway-game-card div {
+  padding: 22px;
+}
+
+.gateway-game-card h3 {
+  color: var(--studio-cream);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.gateway-game-card p {
+  color: var(--studio-muted);
+  font-size: 15px;
+}
+
+.gateway-game-card .text-link {
+  color: var(--studio-gold);
+}
+
 .operation-download-card,
 .game-landing-download-card {
   background:
@@ -3005,6 +3051,7 @@ body.studio-home .back-to-top {
   .operation-split.reverse,
   .game-landing-split.reverse,
   .operation-feature-grid,
+  .gateway-list,
   .game-landing-feature-grid {
     grid-template-columns: 1fr;
   }
