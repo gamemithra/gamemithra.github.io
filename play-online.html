@@ -79,32 +79,100 @@
             <h2>Browser Demos</h2>
             <p>Choose a demo to launch</p>
           </div>
-          <div class="gateway-list">
+          <div class="gateway-list play-demo-list">
             <article class="gateway-game-card">
               <img src="assets/img/html5-games-thumbs/mergeBlitz.jpeg" alt="MergeBlitz HTML5 game thumbnail" />
               <div>
+                <p class="game-label">HTML5 Mini Game</p>
                 <h3>MergeBlitz</h3>
                 <p>A quick HTML5 puzzle prototype for browser play.</p>
-                <a class="text-link" href="assets/html5games/mergeBlitz/index.html" target="_blank" rel="noopener">Play demo</a>
+                <button
+                  class="text-link play-inline-trigger"
+                  type="button"
+                  data-play-title="MergeBlitz"
+                  data-play-type="HTML5 Mini Game"
+                  data-play-src="assets/html5games/mergeBlitz/index.html"
+                >
+                  Play demo
+                </button>
               </div>
             </article>
             <article class="gateway-game-card">
               <img src="assets/img/vn_thumbs/raja_harishchandra.jpg" alt="Raja Harishchandra visual novel thumbnail" />
               <div>
+                <p class="game-label">Visual Novel Teaser</p>
                 <h3>Raja Harishchandra</h3>
                 <p>An interactive visual novel sample about truth, duty, and moral imagination.</p>
-                <a class="text-link" href="assets/visualNovels/rajaharishchandra/index.html" target="_blank" rel="noopener">Play demo</a>
+                <button
+                  class="text-link play-inline-trigger"
+                  type="button"
+                  data-play-title="Raja Harishchandra"
+                  data-play-type="Visual Novel Teaser"
+                  data-play-src="assets/visualNovels/rajaharishchandra/index.html"
+                >
+                  Play teaser
+                </button>
               </div>
             </article>
             <article class="gateway-game-card">
               <img src="assets/img/vn_thumbs/vikram_vethal.jpg" alt="Vikram Vethal visual novel thumbnail" />
               <div>
+                <p class="game-label">Visual Novel Teaser</p>
                 <h3>Vikram Vethal</h3>
                 <p>A folklore-inspired interactive story prototype with riddle-like choices.</p>
-                <a class="text-link" href="assets/visualNovels/vikramadithya/index.html" target="_blank" rel="noopener">Play demo</a>
+                <button
+                  class="text-link play-inline-trigger"
+                  type="button"
+                  data-play-title="Vikram Vethal"
+                  data-play-type="Visual Novel Teaser"
+                  data-play-src="assets/visualNovels/vikramadithya/index.html"
+                >
+                  Play teaser
+                </button>
               </div>
             </article>
           </div>
+
+          <section
+            id="play-stage"
+            class="play-stage"
+            aria-live="polite"
+            hidden
+          >
+            <div class="play-stage-header">
+              <div>
+                <p class="game-label" id="play-stage-type">Playable Demo</p>
+                <h3 id="play-stage-title">Select a demo</h3>
+              </div>
+              <div class="play-stage-actions">
+                <button class="btn-secondary-studio" type="button" id="play-stage-back">
+                  Back to demos
+                </button>
+                <button class="btn-secondary-studio" type="button" id="play-stage-fullscreen">
+                  Fullscreen
+                </button>
+                <a
+                  class="btn-secondary-studio"
+                  href="#"
+                  id="play-stage-new-tab"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Open in new tab
+                </a>
+              </div>
+            </div>
+            <div class="play-frame-shell">
+              <iframe
+                id="play-stage-frame"
+                title="Gamemithra playable demo"
+                loading="lazy"
+                allow="fullscreen; autoplay; gamepad"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!-- TODO: Add visual novel end-card hooks for download, wishlist, and learn-more CTAs. -->
+          </section>
         </div>
       </section>
 
@@ -138,5 +206,6 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/play-online.js"></script>
   </body>
 </html>
