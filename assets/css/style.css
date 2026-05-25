@@ -2984,6 +2984,14 @@ body.studio-home .back-to-top {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.gateway-list-featured {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.play-demo-group + .play-demo-group {
+  margin-top: 34px;
+}
+
 .gateway-game-card {
   background: rgba(16, 26, 58, 0.86);
   border: 1px solid var(--studio-line);
@@ -3041,6 +3049,73 @@ body.studio-home .back-to-top {
   box-shadow: var(--studio-shadow);
   margin-top: 34px;
   overflow: hidden;
+}
+
+.quiz-stage {
+  background:
+    linear-gradient(145deg, rgba(242, 223, 189, 0.96), rgba(218, 187, 128, 0.92)),
+    repeating-linear-gradient(8deg, rgba(92, 56, 22, 0.055) 0 2px, transparent 2px 14px);
+  border: 1px solid rgba(217, 164, 65, 0.3);
+  border-radius: 12px;
+  box-shadow: var(--studio-shadow);
+  color: #241a12;
+  margin-top: 34px;
+  overflow: hidden;
+}
+
+.quiz-stage[hidden] {
+  display: none;
+}
+
+.quiz-stage .play-stage-header {
+  border-bottom-color: rgba(73, 48, 22, 0.18);
+}
+
+.quiz-stage .play-stage-header h3,
+.quiz-stage h3,
+.quiz-stage h4,
+.quiz-stage p {
+  color: #241a12;
+}
+
+.quiz-sample-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 22px;
+}
+
+.quiz-sample-grid article {
+  background: rgba(16, 26, 58, 0.08);
+  border: 1px solid rgba(16, 26, 58, 0.14);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.quiz-sample-grid h4 {
+  font-size: 19px;
+  line-height: 1.35;
+  margin-bottom: 16px;
+}
+
+.quiz-sample-grid summary {
+  color: #8b4a16;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.quiz-sample-grid details p {
+  margin: 12px 0 0;
+}
+
+.quiz-sample-cta {
+  border-top: 1px solid rgba(73, 48, 22, 0.18);
+  padding: 24px;
+}
+
+.quiz-sample-cta h3 {
+  font-size: clamp(24px, 3vw, 34px);
+  margin-bottom: 12px;
 }
 
 .play-stage[hidden] {
@@ -3129,6 +3204,7 @@ body.studio-home .back-to-top {
   .game-landing-split.reverse,
   .operation-feature-grid,
   .gateway-list,
+  .quiz-sample-grid,
   .game-landing-feature-grid {
     grid-template-columns: 1fr;
   }

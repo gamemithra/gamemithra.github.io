@@ -9,6 +9,9 @@
   const back = document.querySelector("#play-stage-back");
   const fullscreen = document.querySelector("#play-stage-fullscreen");
   const triggers = document.querySelectorAll(".play-inline-trigger");
+  const quizStage = document.querySelector("#quiz-stage");
+  const quizTrigger = document.querySelector(".quiz-inline-trigger");
+  const quizBack = document.querySelector("#quiz-stage-back");
 
   if (!stage || !frame || !title || !type || !newTab || !back || !fullscreen) {
     return;
@@ -28,6 +31,9 @@
     newTab.href = src;
     frame.src = src;
     frame.title = `${playTitle} playable demo`;
+    if (quizStage) {
+      quizStage.hidden = true;
+    }
     stage.hidden = false;
     stage.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -42,6 +48,28 @@
     document
       .querySelector(".play-demo-list")
       ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  quizTrigger?.addEventListener("click", () => {
+    if (!quizStage) {
+      return;
+    }
+
+    frame.removeAttribute("src");
+    stage.hidden = true;
+    quizStage.hidden = false;
+    quizStage.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  quizBack?.addEventListener("click", () => {
+    if (!quizStage) {
+      return;
+    }
+
+    quizStage.hidden = true;
+    document
+      .querySelector(".quiz-inline-trigger")
+      ?.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 
   fullscreen.addEventListener("click", async () => {
