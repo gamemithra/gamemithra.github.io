@@ -46,7 +46,7 @@
     frame.removeAttribute("src");
     stage.hidden = true;
     document
-      .querySelector(".play-demo-list")
+      .querySelector(".play-demo-list, .html5-game-list")
       ?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 

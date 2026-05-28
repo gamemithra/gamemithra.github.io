@@ -2352,6 +2352,22 @@ body.studio-home .navbar-mobile a:focus {
   position: relative;
 }
 
+.trailer-frame-embed {
+  min-height: 0;
+  padding: 0;
+}
+
+.trailer-frame-embed::before {
+  display: none;
+}
+
+.trailer-frame-embed iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .casual-games-section {
   background:
     radial-gradient(circle at 12% 18%, rgba(217, 164, 65, 0.1), transparent 24rem),
@@ -2362,6 +2378,12 @@ body.studio-home .navbar-mobile a:focus {
   background:
     radial-gradient(circle at 86% 16%, rgba(83, 191, 207, 0.11), transparent 24rem),
     rgba(8, 15, 36, 0.18);
+}
+
+.html5-games-section {
+  background:
+    radial-gradient(circle at 16% 22%, rgba(83, 191, 207, 0.1), transparent 24rem),
+    rgba(255, 247, 231, 0.025);
 }
 
 .category-card {
@@ -2462,8 +2484,13 @@ body.studio-home .navbar-mobile a:focus {
   padding: 9px 12px;
 }
 
-.category-card .btn-primary-studio {
+.category-card .btn-primary-studio,
+.category-card .btn-secondary-studio {
   justify-self: start;
+}
+
+.category-card .btn-secondary-studio {
+  margin-top: 12px;
 }
 
 .project-grid,
@@ -2844,7 +2871,8 @@ body.studio-home .back-to-top {
     padding: 28px 22px 32px;
   }
 
-  .category-card .btn-primary-studio {
+  .category-card .btn-primary-studio,
+  .category-card .btn-secondary-studio {
     justify-self: stretch;
   }
 
@@ -3189,6 +3217,85 @@ body.studio-home .back-to-top {
   margin-bottom: 8px;
 }
 
+.html5-landing-hero .game-landing-hero-bg img {
+  object-position: center top;
+}
+
+.html5-game-list {
+  display: grid;
+  gap: 26px;
+}
+
+.html5-detail-card {
+  background:
+    linear-gradient(145deg, rgba(16, 26, 58, 0.94), rgba(8, 15, 36, 0.96)),
+    radial-gradient(circle at 84% 16%, rgba(83, 191, 207, 0.12), transparent 22rem);
+  border: 1px solid var(--studio-line);
+  border-radius: 8px;
+  box-shadow: var(--studio-shadow);
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  min-height: 430px;
+  overflow: hidden;
+}
+
+.html5-detail-card-reverse {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.html5-detail-card-reverse .html5-detail-media {
+  order: 2;
+}
+
+.html5-detail-media {
+  min-height: 430px;
+}
+
+.html5-detail-media img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.html5-detail-body {
+  align-content: center;
+  display: grid;
+  padding: clamp(26px, 5vw, 52px);
+}
+
+.html5-detail-body h3 {
+  color: var(--studio-cream);
+  font-size: clamp(30px, 4vw, 50px);
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.html5-detail-body p {
+  color: var(--studio-muted);
+}
+
+.html5-detail-body .category-subtitle {
+  color: var(--studio-cream) !important;
+}
+
+.html5-detail-body .btn-primary-studio,
+.html5-detail-body .btn-secondary-studio {
+  justify-self: start;
+  margin-top: 22px;
+}
+
+.html5-detail-body .category-tags span {
+  background: rgba(255, 247, 231, 0.08);
+  border-color: rgba(217, 164, 65, 0.24);
+  color: var(--studio-cream);
+}
+
+.play-demo-more {
+  margin-top: 22px;
+}
+
 .play-stage {
   background:
     linear-gradient(145deg, rgba(8, 15, 36, 0.96), rgba(16, 26, 58, 0.94)),
@@ -3365,6 +3472,19 @@ body.studio-home .back-to-top {
 
   .play-stage-actions {
     justify-content: flex-start;
+  }
+
+  .html5-detail-card,
+  .html5-detail-card-reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .html5-detail-card-reverse .html5-detail-media {
+    order: 0;
+  }
+
+  .html5-detail-media {
+    min-height: 320px;
   }
 }
 
