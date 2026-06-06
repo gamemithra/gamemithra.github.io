@@ -2198,6 +2198,13 @@ body.studio-home .navbar-mobile a:focus {
   outline-offset: 3px;
 }
 
+.card-action-link {
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+  z-index: 4;
+}
+
 .game-art {
   aspect-ratio: 4 / 3;
   min-height: 260px;

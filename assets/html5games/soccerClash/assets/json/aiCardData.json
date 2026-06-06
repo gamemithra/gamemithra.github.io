@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "player_01",
+    "name": "Aron Vale",
+    "country": "Brazilia",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_01.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Aron Vale is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 78,
+      "defense": 42,
+      "pace": 87,
+      "form": 83,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_02",
+    "name": "Luca Khan",
+    "country": "Nile Republic",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_02.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Epic",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Luca Khan is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 87,
+      "defense": 53,
+      "pace": 91,
+      "form": 77,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_03",
+    "name": "Milo Moretti",
+    "country": "Morava",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_03.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Milo Moretti is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 83,
+      "defense": 45,
+      "pace": 75,
+      "form": 71,
+      "impact": 77
+    }
+  },
+  {
+    "id": "player_04",
+    "name": "Dario Alvarez",
+    "country": "Andesia",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_04.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield creator",
+    "rarity": "Rare",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Dario Alvarez is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 64,
+      "pace": 64,
+      "form": 90,
+      "impact": 92
+    }
+  },
+  {
+    "id": "player_05",
+    "name": "Niko Haddad",
+    "country": "Crovia",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_05.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Epic",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Niko Haddad is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 82,
+      "defense": 78,
+      "pace": 80,
+      "form": 84,
+      "impact": 86
+    }
+  },
+  {
+    "id": "player_06",
+    "name": "Rayan Storm",
+    "country": "Caledon",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_06.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Rare",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Rayan Storm is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 76,
+      "defense": 72,
+      "pace": 74,
+      "form": 78,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_07",
+    "name": "Kairo Reed",
+    "country": "Saffron Isles",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_07.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive screen",
+    "rarity": "Common",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Kairo Reed is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 60,
+      "defense": 78,
+      "pace": 68,
+      "form": 72,
+      "impact": 73
+    }
+  },
+  {
+    "id": "player_08",
+    "name": "Theo Clarke",
+    "country": "Belvaria",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_08.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Rare",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Theo Clarke is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 59,
+      "defense": 72,
+      "pace": 75,
+      "form": 87,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_09",
+    "name": "Enzo Santos",
+    "country": "Azuria",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_09.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Enzo Santos is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 45,
+      "defense": 93,
+      "pace": 77,
+      "form": 82,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_10",
+    "name": "Ishan Rao",
+    "country": "Albion",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_10.png",
+    "preferredFoot": "Left",
+    "playStyle": "Goalkeeper",
+    "rarity": "Common",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Ishan Rao is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 34,
+      "defense": 89,
+      "pace": 67,
+      "form": 77,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_11",
+    "name": "Mateo Walker",
+    "country": "Nordland",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_11.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Mateo Walker is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 81,
+      "defense": 43,
+      "pace": 73,
+      "form": 69,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_12",
+    "name": "Zane Mavo",
+    "country": "Alpina",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_12.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Rare",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Zane Mavo is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 78,
+      "defense": 45,
+      "pace": 82,
+      "form": 86,
+      "impact": 90
+    }
+  },
+  {
+    "id": "player_13",
+    "name": "Omar Stone",
+    "country": "Italia Nova",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_13.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Epic",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Omar Stone is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 92,
+      "defense": 54,
+      "pace": 84,
+      "form": 80,
+      "impact": 86
+    }
+  },
+  {
+    "id": "player_14",
+    "name": "Felix Nair",
+    "country": "Argenta",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_14.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Rare",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Felix Nair is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 74,
+      "defense": 70,
+      "pace": 72,
+      "form": 76,
+      "impact": 78
+    }
+  },
+  {
+    "id": "player_15",
+    "name": "Hugo Demir",
+    "country": "Iberia",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_15.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Common",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Hugo Demir is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 64,
+      "pace": 66,
+      "form": 70,
+      "impact": 72
+    }
+  },
+  {
+    "id": "player_16",
+    "name": "Jude Mendez",
+    "country": "Lusonia",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_16.png",
+    "preferredFoot": "Left",
+    "playStyle": "All-action midfielder",
+    "rarity": "Legendary",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Jude Mendez is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 85,
+      "defense": 81,
+      "pace": 83,
+      "form": 87,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_17",
+    "name": "Rafa Byrne",
+    "country": "Brazilia",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_17.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Epic",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Rafa Byrne is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 69,
+      "defense": 87,
+      "pace": 77,
+      "form": 81,
+      "impact": 82
+    }
+  },
+  {
+    "id": "player_18",
+    "name": "Noah Arden",
+    "country": "Nile Republic",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_18.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Rare",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Noah Arden is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 65,
+      "defense": 77,
+      "pace": 81,
+      "form": 73,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_19",
+    "name": "Eli Rossi",
+    "country": "Morava",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_19.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive specialist",
+    "rarity": "Common",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Eli Rossi is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 43,
+      "defense": 79,
+      "pace": 63,
+      "form": 68,
+      "impact": 71
+    }
+  },
+  {
+    "id": "player_20",
+    "name": "Marco Hart",
+    "country": "Andesia",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_20.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Common",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Marco Hart is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 34,
+      "defense": 82,
+      "pace": 58,
+      "form": 86,
+      "impact": 90
+    }
+  },
+  {
+    "id": "player_21",
+    "name": "Samir Carter",
+    "country": "Crovia",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_21.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Samir Carter is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 90,
+      "defense": 52,
+      "pace": 82,
+      "form": 78,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_22",
+    "name": "Victor Cole",
+    "country": "Caledon",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_22.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide threat",
+    "rarity": "Rare",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Victor Cole is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 82,
+      "defense": 48,
+      "pace": 86,
+      "form": 72,
+      "impact": 76
+    }
+  },
+  {
+    "id": "player_23",
+    "name": "Leon Ramos",
+    "country": "Saffron Isles",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_23.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Leon Ramos is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 78,
+      "defense": 40,
+      "pace": 70,
+      "form": 66,
+      "impact": 72
+    }
+  },
+  {
+    "id": "player_24",
+    "name": "Ari Costa",
+    "country": "Belvaria",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_24.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Legendary",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Ari Costa is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 83,
+      "defense": 79,
+      "pace": 81,
+      "form": 85,
+      "impact": 87
+    }
+  },
+  {
+    "id": "player_25",
+    "name": "Kai Bauer",
+    "country": "Azuria",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_25.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield engine",
+    "rarity": "Rare",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Kai Bauer is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 77,
+      "defense": 73,
+      "pace": 75,
+      "form": 79,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_26",
+    "name": "Tomas Fischer",
+    "country": "Albion",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_26.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Common",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Tomas Fischer is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 71,
+      "defense": 67,
+      "pace": 69,
+      "form": 73,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_27",
+    "name": "Jalen Petrov",
+    "country": "Nordland",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_27.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Rare",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Jalen Petrov is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 61,
+      "defense": 77,
+      "pace": 66,
+      "form": 90,
+      "impact": 91
+    }
+  },
+  {
+    "id": "player_28",
+    "name": "Soren Martins",
+    "country": "Alpina",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_28.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide defender",
+    "rarity": "Legendary",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Soren Martins is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 74,
+      "defense": 86,
+      "pace": 90,
+      "form": 82,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_29",
+    "name": "Naveen Junior",
+    "country": "Italia Nova",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_29.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Naveen Junior is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 52,
+      "defense": 88,
+      "pace": 72,
+      "form": 77,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_30",
+    "name": "Diego Silva",
+    "country": "Argenta",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_30.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Common",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Diego Silva is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 38,
+      "defense": 84,
+      "pace": 62,
+      "form": 72,
+      "impact": 76
+    }
+  },
+  {
+    "id": "player_31",
+    "name": "Caleb Vidal",
+    "country": "Iberia",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_31.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Epic",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Caleb Vidal is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 82,
+      "defense": 46,
+      "pace": 91,
+      "form": 87,
+      "impact": 93
+    }
+  },
+  {
+    "id": "player_32",
+    "name": "Milan Blake",
+    "country": "Lusonia",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_32.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Epic",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Milan Blake is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 91,
+      "defense": 57,
+      "pace": 95,
+      "form": 81,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_33",
+    "name": "Adrian Romero",
+    "country": "Brazilia",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_33.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Adrian Romero is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 87,
+      "defense": 49,
+      "pace": 79,
+      "form": 75,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_34",
+    "name": "Yusuf Harlan",
+    "country": "Nile Republic",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_34.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield creator",
+    "rarity": "Common",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Yusuf Harlan is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 69,
+      "defense": 65,
+      "pace": 67,
+      "form": 71,
+      "impact": 73
+    }
+  },
+  {
+    "id": "player_35",
+    "name": "Bruno Kessie",
+    "country": "Morava",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_35.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Epic",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Bruno Kessie is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 66,
+      "defense": 62,
+      "pace": 84,
+      "form": 88,
+      "impact": 90
+    }
+  },
+  {
+    "id": "player_36",
+    "name": "Iker Hayes",
+    "country": "Andesia",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_36.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Epic",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Iker Hayes is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 80,
+      "defense": 76,
+      "pace": 78,
+      "form": 82,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_37",
+    "name": "Ronan Brooks",
+    "country": "Crovia",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_37.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive screen",
+    "rarity": "Rare",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Ronan Brooks is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 64,
+      "defense": 82,
+      "pace": 72,
+      "form": 76,
+      "impact": 77
+    }
+  },
+  {
+    "id": "player_38",
+    "name": "Amir Laurent",
+    "country": "Caledon",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_38.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Common",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Amir Laurent is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 60,
+      "defense": 72,
+      "pace": 76,
+      "form": 68,
+      "impact": 70
+    }
+  },
+  {
+    "id": "player_39",
+    "name": "Ezra Bennett",
+    "country": "Saffron Isles",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_39.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Ezra Bennett is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 49,
+      "defense": 79,
+      "pace": 81,
+      "form": 86,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_40",
+    "name": "Nolan Sayeed",
+    "country": "Belvaria",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_40.png",
+    "preferredFoot": "Left",
+    "playStyle": "Goalkeeper",
+    "rarity": "Rare",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Nolan Sayeed is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 38,
+      "defense": 93,
+      "pace": 71,
+      "form": 81,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_41",
+    "name": "Aron Vale",
+    "country": "Azuria",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_41.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Aron Vale is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 85,
+      "defense": 47,
+      "pace": 77,
+      "form": 73,
+      "impact": 79
+    }
+  },
+  {
+    "id": "player_42",
+    "name": "Luca Khan",
+    "country": "Albion",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_42.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Common",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Luca Khan is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 77,
+      "defense": 43,
+      "pace": 81,
+      "form": 67,
+      "impact": 71
+    }
+  },
+  {
+    "id": "player_43",
+    "name": "Milo Moretti",
+    "country": "Nordland",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_43.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Milo Moretti is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 79,
+      "defense": 43,
+      "pace": 88,
+      "form": 84,
+      "impact": 90
+    }
+  },
+  {
+    "id": "player_44",
+    "name": "Dario Alvarez",
+    "country": "Alpina",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_44.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Epic",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Dario Alvarez is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 78,
+      "defense": 74,
+      "pace": 76,
+      "form": 80,
+      "impact": 82
+    }
+  },
+  {
+    "id": "player_45",
+    "name": "Niko Haddad",
+    "country": "Italia Nova",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_45.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Rare",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Niko Haddad is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 72,
+      "defense": 68,
+      "pace": 70,
+      "form": 74,
+      "impact": 76
+    }
+  },
+  {
+    "id": "player_46",
+    "name": "Rayan Storm",
+    "country": "Argenta",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_46.png",
+    "preferredFoot": "Left",
+    "playStyle": "All-action midfielder",
+    "rarity": "Common",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Rayan Storm is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 66,
+      "defense": 62,
+      "pace": 64,
+      "form": 68,
+      "impact": 70
+    }
+  },
+  {
+    "id": "player_47",
+    "name": "Kairo Reed",
+    "country": "Iberia",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_47.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Epic",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Kairo Reed is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 56,
+      "defense": 91,
+      "pace": 81,
+      "form": 85,
+      "impact": 86
+    }
+  },
+  {
+    "id": "player_48",
+    "name": "Theo Clarke",
+    "country": "Lusonia",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_48.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Epic",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Theo Clarke is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 69,
+      "defense": 81,
+      "pace": 85,
+      "form": 77,
+      "impact": 79
+    }
+  },
+  {
+    "id": "player_49",
+    "name": "Enzo Santos",
+    "country": "Brazilia",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_49.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive specialist",
+    "rarity": "Common",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Enzo Santos is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 47,
+      "defense": 83,
+      "pace": 67,
+      "form": 72,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_50",
+    "name": "Ishan Rao",
+    "country": "Nile Republic",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_50.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Rare",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Ishan Rao is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 38,
+      "defense": 86,
+      "pace": 62,
+      "form": 90,
+      "impact": 94
+    }
+  },
+  {
+    "id": "player_51",
+    "name": "Mateo Walker",
+    "country": "Morava",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_51.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Epic",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Mateo Walker is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 94,
+      "defense": 41,
+      "pace": 86,
+      "form": 82,
+      "impact": 88
+    }
+  },
+  {
+    "id": "player_52",
+    "name": "Zane Mavo",
+    "country": "Andesia",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_52.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide threat",
+    "rarity": "Rare",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Zane Mavo is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 86,
+      "defense": 52,
+      "pace": 90,
+      "form": 76,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_53",
+    "name": "Omar Stone",
+    "country": "Crovia",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_53.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Omar Stone is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 82,
+      "defense": 44,
+      "pace": 74,
+      "form": 70,
+      "impact": 76
+    }
+  },
+  {
+    "id": "player_54",
+    "name": "Felix Nair",
+    "country": "Caledon",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_54.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Epic",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Felix Nair is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 67,
+      "defense": 63,
+      "pace": 85,
+      "form": 89,
+      "impact": 91
+    }
+  },
+  {
+    "id": "player_55",
+    "name": "Hugo Demir",
+    "country": "Saffron Isles",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_55.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield engine",
+    "rarity": "Epic",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Hugo Demir is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 81,
+      "defense": 77,
+      "pace": 79,
+      "form": 83,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_56",
+    "name": "Jude Mendez",
+    "country": "Belvaria",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_56.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Rare",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Jude Mendez is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 75,
+      "defense": 71,
+      "pace": 73,
+      "form": 77,
+      "impact": 79
+    }
+  },
+  {
+    "id": "player_57",
+    "name": "Rafa Byrne",
+    "country": "Azuria",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_57.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Common",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Rafa Byrne is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 59,
+      "defense": 77,
+      "pace": 67,
+      "form": 71,
+      "impact": 72
+    }
+  },
+  {
+    "id": "player_58",
+    "name": "Noah Arden",
+    "country": "Albion",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_58.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide defender",
+    "rarity": "Rare",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Noah Arden is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 58,
+      "defense": 71,
+      "pace": 74,
+      "form": 86,
+      "impact": 88
+    }
+  },
+  {
+    "id": "player_59",
+    "name": "Eli Rossi",
+    "country": "Nordland",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_59.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Eli Rossi is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 44,
+      "defense": 92,
+      "pace": 76,
+      "form": 81,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_60",
+    "name": "Marco Hart",
+    "country": "Alpina",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_60.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Common",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Marco Hart is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 42,
+      "defense": 88,
+      "pace": 66,
+      "form": 76,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_61",
+    "name": "Samir Carter",
+    "country": "Italia Nova",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_61.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Samir Carter is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 80,
+      "defense": 42,
+      "pace": 72,
+      "form": 68,
+      "impact": 74
+    }
+  },
+  {
+    "id": "player_62",
+    "name": "Victor Cole",
+    "country": "Argenta",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_62.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Rare",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Victor Cole is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 77,
+      "defense": 44,
+      "pace": 81,
+      "form": 85,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_63",
+    "name": "Leon Ramos",
+    "country": "Iberia",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_63.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Epic",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Leon Ramos is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 91,
+      "defense": 53,
+      "pace": 83,
+      "form": 79,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_64",
+    "name": "Ari Costa",
+    "country": "Lusonia",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_64.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield creator",
+    "rarity": "Rare",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Ari Costa is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 73,
+      "defense": 69,
+      "pace": 71,
+      "form": 75,
+      "impact": 77
+    }
+  },
+  {
+    "id": "player_65",
+    "name": "Kai Bauer",
+    "country": "Brazilia",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_65.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Common",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Kai Bauer is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 67,
+      "defense": 63,
+      "pace": 65,
+      "form": 69,
+      "impact": 71
+    }
+  },
+  {
+    "id": "player_66",
+    "name": "Tomas Fischer",
+    "country": "Nile Republic",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_66.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Legendary",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Tomas Fischer is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 84,
+      "defense": 80,
+      "pace": 82,
+      "form": 86,
+      "impact": 88
+    }
+  },
+  {
+    "id": "player_67",
+    "name": "Jalen Petrov",
+    "country": "Morava",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_67.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive screen",
+    "rarity": "Epic",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Jalen Petrov is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 86,
+      "pace": 76,
+      "form": 80,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_68",
+    "name": "Soren Martins",
+    "country": "Andesia",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_68.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Rare",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Soren Martins is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 64,
+      "defense": 76,
+      "pace": 80,
+      "form": 72,
+      "impact": 74
+    }
+  },
+  {
+    "id": "player_69",
+    "name": "Naveen Junior",
+    "country": "Crovia",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_69.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Common",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Naveen Junior is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 42,
+      "defense": 78,
+      "pace": 62,
+      "form": 67,
+      "impact": 70
+    }
+  },
+  {
+    "id": "player_70",
+    "name": "Diego Silva",
+    "country": "Caledon",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_70.png",
+    "preferredFoot": "Left",
+    "playStyle": "Goalkeeper",
+    "rarity": "Rare",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Diego Silva is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 42,
+      "defense": 81,
+      "pace": 75,
+      "form": 85,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_71",
+    "name": "Caleb Vidal",
+    "country": "Saffron Isles",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_71.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Caleb Vidal is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 89,
+      "defense": 51,
+      "pace": 81,
+      "form": 77,
+      "impact": 83
+    }
+  },
+  {
+    "id": "player_72",
+    "name": "Milan Blake",
+    "country": "Belvaria",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_72.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Rare",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Milan Blake is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 81,
+      "defense": 47,
+      "pace": 85,
+      "form": 71,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_73",
+    "name": "Adrian Romero",
+    "country": "Azuria",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_73.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Adrian Romero is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 83,
+      "defense": 47,
+      "pace": 70,
+      "form": 88,
+      "impact": 94
+    }
+  },
+  {
+    "id": "player_74",
+    "name": "Yusuf Harlan",
+    "country": "Albion",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_74.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Epic",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Yusuf Harlan is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 82,
+      "defense": 78,
+      "pace": 80,
+      "form": 84,
+      "impact": 86
+    }
+  },
+  {
+    "id": "player_75",
+    "name": "Bruno Kessie",
+    "country": "Nordland",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_75.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Rare",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Bruno Kessie is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 76,
+      "defense": 72,
+      "pace": 74,
+      "form": 78,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_76",
+    "name": "Iker Hayes",
+    "country": "Alpina",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_76.png",
+    "preferredFoot": "Left",
+    "playStyle": "All-action midfielder",
+    "rarity": "Common",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Iker Hayes is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 70,
+      "defense": 66,
+      "pace": 68,
+      "form": 72,
+      "impact": 74
+    }
+  },
+  {
+    "id": "player_77",
+    "name": "Ronan Brooks",
+    "country": "Italia Nova",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_77.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Rare",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Ronan Brooks is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 60,
+      "defense": 76,
+      "pace": 65,
+      "form": 89,
+      "impact": 90
+    }
+  },
+  {
+    "id": "player_78",
+    "name": "Amir Laurent",
+    "country": "Argenta",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_78.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Epic",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Amir Laurent is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 73,
+      "defense": 85,
+      "pace": 89,
+      "form": 81,
+      "impact": 83
+    }
+  },
+  {
+    "id": "player_79",
+    "name": "Ezra Bennett",
+    "country": "Iberia",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_79.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Ezra Bennett is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 51,
+      "defense": 87,
+      "pace": 71,
+      "form": 76,
+      "impact": 79
+    }
+  },
+  {
+    "id": "player_80",
+    "name": "Nolan Sayeed",
+    "country": "Lusonia",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_80.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Common",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Nolan Sayeed is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 37,
+      "defense": 83,
+      "pace": 61,
+      "form": 71,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_81",
+    "name": "Aron Vale",
+    "country": "Brazilia",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_81.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Epic",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Aron Vale is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 81,
+      "defense": 45,
+      "pace": 90,
+      "form": 86,
+      "impact": 92
+    }
+  },
+  {
+    "id": "player_82",
+    "name": "Luca Khan",
+    "country": "Nile Republic",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_82.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide threat",
+    "rarity": "Epic",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Luca Khan is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 90,
+      "defense": 56,
+      "pace": 94,
+      "form": 80,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_83",
+    "name": "Milo Moretti",
+    "country": "Morava",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_83.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Milo Moretti is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 86,
+      "defense": 48,
+      "pace": 78,
+      "form": 74,
+      "impact": 80
+    }
+  },
+  {
+    "id": "player_84",
+    "name": "Dario Alvarez",
+    "country": "Andesia",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_84.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield creator",
+    "rarity": "Common",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Dario Alvarez is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 64,
+      "pace": 66,
+      "form": 70,
+      "impact": 72
+    }
+  },
+  {
+    "id": "player_85",
+    "name": "Niko Haddad",
+    "country": "Crovia",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_85.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield engine",
+    "rarity": "Legendary",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Niko Haddad is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 85,
+      "defense": 81,
+      "pace": 83,
+      "form": 87,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_86",
+    "name": "Rayan Storm",
+    "country": "Caledon",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_86.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Epic",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Rayan Storm is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 79,
+      "defense": 75,
+      "pace": 77,
+      "form": 81,
+      "impact": 83
+    }
+  },
+  {
+    "id": "player_87",
+    "name": "Kairo Reed",
+    "country": "Saffron Isles",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_87.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive screen",
+    "rarity": "Rare",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Kairo Reed is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 63,
+      "defense": 81,
+      "pace": 71,
+      "form": 75,
+      "impact": 76
+    }
+  },
+  {
+    "id": "player_88",
+    "name": "Theo Clarke",
+    "country": "Belvaria",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_88.png",
+    "preferredFoot": "Left",
+    "playStyle": "Wide defender",
+    "rarity": "Common",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Theo Clarke is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 59,
+      "defense": 71,
+      "pace": 75,
+      "form": 67,
+      "impact": 69
+    }
+  },
+  {
+    "id": "player_89",
+    "name": "Enzo Santos",
+    "country": "Azuria",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_89.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Rare",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Enzo Santos is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 48,
+      "defense": 78,
+      "pace": 80,
+      "form": 85,
+      "impact": 88
+    }
+  },
+  {
+    "id": "player_90",
+    "name": "Ishan Rao",
+    "country": "Albion",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_90.png",
+    "preferredFoot": "Right",
+    "playStyle": "Goalkeeper",
+    "rarity": "Rare",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Ishan Rao is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 37,
+      "defense": 92,
+      "pace": 70,
+      "form": 80,
+      "impact": 84
+    }
+  },
+  {
+    "id": "player_91",
+    "name": "Mateo Walker",
+    "country": "Nordland",
+    "role": "Forward",
+    "image": "assets/img/playerPhotos/player_91.png",
+    "preferredFoot": "Left",
+    "playStyle": "Attacking threat",
+    "rarity": "Common",
+    "ability": "Clinical Finish",
+    "strength": "finishing and positioning",
+    "bio": "Mateo Walker is a fictional forward in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 84,
+      "defense": 46,
+      "pace": 76,
+      "form": 72,
+      "impact": 78
+    }
+  },
+  {
+    "id": "player_92",
+    "name": "Zane Mavo",
+    "country": "Alpina",
+    "role": "Winger",
+    "image": "assets/img/playerPhotos/player_92.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide threat",
+    "rarity": "Common",
+    "ability": "Wing Burst",
+    "strength": "pace and one-on-one attacks",
+    "bio": "Zane Mavo is a fictional winger in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 76,
+      "defense": 42,
+      "pace": 80,
+      "form": 66,
+      "impact": 70
+    }
+  },
+  {
+    "id": "player_93",
+    "name": "Omar Stone",
+    "country": "Italia Nova",
+    "role": "Striker",
+    "image": "assets/img/playerPhotos/player_93.png",
+    "preferredFoot": "Right",
+    "playStyle": "Attacking threat",
+    "rarity": "Rare",
+    "ability": "Net Hunter",
+    "strength": "finishing under pressure",
+    "bio": "Omar Stone is a fictional striker in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 78,
+      "defense": 42,
+      "pace": 87,
+      "form": 83,
+      "impact": 89
+    }
+  },
+  {
+    "id": "player_94",
+    "name": "Felix Nair",
+    "country": "Argenta",
+    "role": "Attacking Midfielder",
+    "image": "assets/img/playerPhotos/player_94.png",
+    "preferredFoot": "Left",
+    "playStyle": "Midfield creator",
+    "rarity": "Rare",
+    "ability": "Through Ball",
+    "strength": "chance creation",
+    "bio": "Felix Nair is a fictional attacking midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 77,
+      "defense": 73,
+      "pace": 75,
+      "form": 79,
+      "impact": 81
+    }
+  },
+  {
+    "id": "player_95",
+    "name": "Hugo Demir",
+    "country": "Iberia",
+    "role": "Central Midfielder",
+    "image": "assets/img/playerPhotos/player_95.png",
+    "preferredFoot": "Right",
+    "playStyle": "Midfield engine",
+    "rarity": "Common",
+    "ability": "Tempo Control",
+    "strength": "passing and balance",
+    "bio": "Hugo Demir is a fictional central midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 71,
+      "defense": 67,
+      "pace": 69,
+      "form": 73,
+      "impact": 75
+    }
+  },
+  {
+    "id": "player_96",
+    "name": "Jude Mendez",
+    "country": "Lusonia",
+    "role": "Box-to-box Midfielder",
+    "image": "assets/img/playerPhotos/player_96.png",
+    "preferredFoot": "Right",
+    "playStyle": "All-action midfielder",
+    "rarity": "Rare",
+    "ability": "Engine Room",
+    "strength": "work rate and transitions",
+    "bio": "Jude Mendez is a fictional box-to-box midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 64,
+      "pace": 64,
+      "form": 90,
+      "impact": 92
+    }
+  },
+  {
+    "id": "player_97",
+    "name": "Rafa Byrne",
+    "country": "Brazilia",
+    "role": "Defensive Midfielder",
+    "image": "assets/img/playerPhotos/player_97.png",
+    "preferredFoot": "Left",
+    "playStyle": "Defensive screen",
+    "rarity": "Epic",
+    "ability": "Ball Winner",
+    "strength": "interceptions and control",
+    "bio": "Rafa Byrne is a fictional defensive midfielder in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 72,
+      "defense": 90,
+      "pace": 80,
+      "form": 84,
+      "impact": 85
+    }
+  },
+  {
+    "id": "player_98",
+    "name": "Noah Arden",
+    "country": "Nile Republic",
+    "role": "Full Back",
+    "image": "assets/img/playerPhotos/player_98.png",
+    "preferredFoot": "Right",
+    "playStyle": "Wide defender",
+    "rarity": "Rare",
+    "ability": "Overlap Run",
+    "strength": "pace and recovery tackles",
+    "bio": "Noah Arden is a fictional full back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 68,
+      "defense": 80,
+      "pace": 84,
+      "form": 76,
+      "impact": 78
+    }
+  },
+  {
+    "id": "player_99",
+    "name": "Eli Rossi",
+    "country": "Morava",
+    "role": "Center Back",
+    "image": "assets/img/playerPhotos/player_99.png",
+    "preferredFoot": "Right",
+    "playStyle": "Defensive specialist",
+    "rarity": "Common",
+    "ability": "Last Line",
+    "strength": "tackling and clearances",
+    "bio": "Eli Rossi is a fictional center back in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 46,
+      "defense": 82,
+      "pace": 66,
+      "form": 71,
+      "impact": 74
+    }
+  },
+  {
+    "id": "player_100",
+    "name": "Marco Hart",
+    "country": "Andesia",
+    "role": "Goalkeeper",
+    "image": "assets/img/playerPhotos/player_100.png",
+    "preferredFoot": "Left",
+    "playStyle": "Goalkeeper",
+    "rarity": "Rare",
+    "ability": "Shot Stopper",
+    "strength": "saves and distribution",
+    "bio": "Marco Hart is a fictional goalkeeper in the SoccerClash universe, with ratings tuned for balanced card battles.",
+    "ratings": {
+      "attack": 37,
+      "defense": 85,
+      "pace": 61,
+      "form": 89,
+      "impact": 93
+    }
+  }
+]
