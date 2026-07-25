@@ -3116,6 +3116,247 @@ body.studio-home .back-to-top {
   margin-bottom: 24px;
 }
 
+.game-landing-text-band .btn-secondary-studio {
+  margin-top: 12px;
+}
+
+.ramayan-story-hero {
+  min-height: 74vh;
+  overflow: hidden;
+  padding: 142px 0 76px;
+  position: relative;
+}
+
+.ramayan-story-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.ramayan-story-hero-bg img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.44;
+  width: 100%;
+}
+
+.ramayan-story-hero::after {
+  background:
+    linear-gradient(90deg, rgba(8, 15, 36, 0.98), rgba(8, 15, 36, 0.78), rgba(8, 15, 36, 0.92)),
+    radial-gradient(circle at 64% 32%, rgba(217, 164, 65, 0.22), transparent 24rem);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.ramayan-story-hero-inner {
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+}
+
+.ramayan-story-hero h1 {
+  color: var(--studio-cream);
+  font-size: clamp(42px, 7vw, 86px);
+  line-height: 1;
+  margin: 0 0 22px;
+  max-width: 920px;
+}
+
+.ramayan-story-hero p {
+  color: var(--studio-muted);
+  font-size: 18px;
+  max-width: 720px;
+}
+
+.ramayan-story-article {
+  background:
+    linear-gradient(180deg, rgba(255, 247, 231, 0.035), rgba(8, 15, 36, 0)),
+    rgba(255, 247, 231, 0.02);
+}
+
+.ramayan-story-content {
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+.ramayan-story-content h2 {
+  color: var(--studio-cream);
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.16;
+  margin-bottom: 28px;
+}
+
+.ramayan-story-content p {
+  color: var(--studio-muted);
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  line-height: 1.92;
+  margin-bottom: 22px;
+}
+
+.ramayan-story-callout,
+.ramayan-story-content blockquote {
+  border-left: 3px solid var(--studio-gold);
+  margin: 34px 0;
+  padding: 6px 0 6px 24px;
+}
+
+.ramayan-story-callout p,
+.ramayan-story-content blockquote p {
+  color: var(--studio-cream);
+  font-family: "Cinzel", serif;
+  font-size: clamp(23px, 3vw, 34px);
+  line-height: 1.38;
+  margin: 0 0 10px;
+}
+
+.ramayan-story-callout p:first-child {
+  color: var(--studio-gold);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.ramayan-story-content blockquote {
+  background:
+    linear-gradient(135deg, rgba(217, 164, 65, 0.11), rgba(83, 191, 207, 0.06)),
+    rgba(16, 26, 58, 0.66);
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+}
+
+.ramayan-story-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 42px;
+}
+
+.operation-text-band .btn-secondary-studio {
+  margin-top: 12px;
+}
+
+.operation-note-hero {
+  min-height: 74vh;
+  overflow: hidden;
+  padding: 142px 0 76px;
+  position: relative;
+}
+
+.operation-note-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.operation-note-hero-bg img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.46;
+  width: 100%;
+}
+
+.operation-note-hero::after {
+  background:
+    linear-gradient(90deg, rgba(8, 15, 36, 0.98), rgba(8, 15, 36, 0.74), rgba(8, 15, 36, 0.94)),
+    radial-gradient(circle at 68% 32%, rgba(123, 38, 48, 0.26), transparent 25rem),
+    radial-gradient(circle at 16% 72%, rgba(83, 191, 207, 0.12), transparent 19rem);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.operation-note-hero-inner {
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+}
+
+.operation-note-hero h1 {
+  color: var(--studio-cream);
+  font-size: clamp(42px, 7vw, 86px);
+  line-height: 1;
+  margin: 0 0 22px;
+  max-width: 940px;
+}
+
+.operation-note-hero p {
+  color: var(--studio-muted);
+  font-size: 18px;
+  max-width: 740px;
+}
+
+.operation-note-article {
+  background:
+    linear-gradient(180deg, rgba(255, 247, 231, 0.035), rgba(8, 15, 36, 0)),
+    rgba(255, 247, 231, 0.02);
+}
+
+.operation-note-content {
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+.operation-note-content h2 {
+  color: var(--studio-cream);
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.16;
+  margin-bottom: 28px;
+}
+
+.operation-note-content p {
+  color: var(--studio-muted);
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  line-height: 1.92;
+  margin-bottom: 22px;
+}
+
+.operation-note-callout,
+.operation-note-content blockquote {
+  border-left: 3px solid var(--studio-gold);
+  margin: 34px 0;
+  padding: 6px 0 6px 24px;
+}
+
+.operation-note-callout p,
+.operation-note-content blockquote p {
+  color: var(--studio-cream);
+  font-family: "Cinzel", serif;
+  font-size: clamp(23px, 3vw, 34px);
+  line-height: 1.38;
+  margin: 0 0 10px;
+}
+
+.operation-note-callout p:first-child {
+  color: var(--studio-gold);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.operation-note-content blockquote {
+  background:
+    linear-gradient(135deg, rgba(123, 38, 48, 0.16), rgba(83, 191, 207, 0.06)),
+    rgba(16, 26, 58, 0.66);
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+}
+
+.operation-note-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 42px;
+}
+
 .operation-text-card ul,
 .game-landing-text-card ul {
   margin-bottom: 18px;
@@ -3502,9 +3743,30 @@ body.studio-home .back-to-top {
     padding: 118px 0 58px;
   }
 
+  .ramayan-story-hero {
+    min-height: auto;
+    padding: 118px 0 58px;
+  }
+
+  .operation-note-hero {
+    min-height: auto;
+    padding: 118px 0 58px;
+  }
+
   .operation-hero p,
-  .game-landing-hero p {
+  .game-landing-hero p,
+  .ramayan-story-hero p,
+  .ramayan-story-content p,
+  .operation-note-hero p,
+  .operation-note-content p {
     font-size: 16px;
+  }
+
+  .ramayan-story-actions .btn-primary-studio,
+  .ramayan-story-actions .btn-secondary-studio,
+  .operation-note-actions .btn-primary-studio,
+  .operation-note-actions .btn-secondary-studio {
+    width: 100%;
   }
 
   .screenshot-grid {
