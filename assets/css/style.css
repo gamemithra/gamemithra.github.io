@@ -2064,6 +2064,11 @@ body.studio-home .navbar-mobile a:focus {
   width: auto;
 }
 
+.store-badge-disabled {
+  cursor: default;
+  opacity: 0.48;
+}
+
 .hero-art-panel {
   background:
     linear-gradient(145deg, rgba(242, 223, 189, 0.95), rgba(215, 183, 124, 0.9)),
@@ -2385,6 +2390,44 @@ body.studio-home .navbar-mobile a:focus {
   background:
     radial-gradient(circle at 86% 16%, rgba(83, 191, 207, 0.11), transparent 24rem),
     rgba(8, 15, 36, 0.18);
+}
+
+.in-development-section,
+.parents-section,
+.news-section,
+.related-games-section {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(217, 164, 65, 0.08), transparent 22rem),
+    rgba(8, 15, 36, 0.12);
+}
+
+.content-page .content-hero {
+  min-height: 68vh;
+  padding-top: 130px;
+}
+
+.content-page .content-hero .game-landing-hero-bg img {
+  opacity: 0.58;
+}
+
+.article-section {
+  background: rgba(255, 247, 231, 0.035);
+}
+
+.article-body {
+  color: var(--studio-muted);
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 860px;
+}
+
+.article-body a {
+  color: var(--studio-gold);
+  font-weight: 800;
+}
+
+.article-body .hero-actions {
+  margin-top: 30px;
 }
 
 .html5-games-section {
@@ -2729,6 +2772,26 @@ body.studio-home #footer .footer-studio-line {
 
 body.studio-home #footer .social-links {
   margin-bottom: 24px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  justify-content: center;
+  margin: 0 auto 24px;
+  max-width: 760px;
+}
+
+.footer-nav a {
+  color: var(--studio-muted);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus-visible {
+  color: var(--studio-gold);
 }
 
 body.studio-home #footer .social-links a {
